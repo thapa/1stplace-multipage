@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/rnn6kug.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Colelction Page</title>
+
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <!-- Header Top Starts -->
+            <div class="header--top py-[10px]">
+                <div class="container mx-auto">
+                    <div class="header--inner flex items-center justify-between">
+                        <div class="logo flex space-x-6">
+                            <a href="#" class="inline-flex"><img src="images/logo.svg" class="w-[180px]"></a>
+                            <div class="w-[1px] bg-slate-400"></div>
+                            <div class="school-name flex items-center space-x-[15px]">
+                                <div class="w-[60px]">
+                                    <img src="images/Unknown.svg">
+                                </div>
+                                <div>
+                                    <h4 class="text-accent-3 text-[24px] md:text-[34px] font-bold font-Noto">MEDINA BEES</h4>
+                                    <p class="text-[#3D3D3D] mt-1">Medina, OH</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header--location text-sm hidden md:block">
+                            <a href="#" class="inline-flex text-black space-x-4">
+                                <img src="images/change_icon.svg" class="w-7">
+                                <span>Change School</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header Top Ends            
+                Menu Starts -->
+            <div class="bg-accent">
+                <div class="container mx-auto">
+                    <div class="mobile-nav flex lg:hidden justify-between py-2">
+                        <a href="#" class="uppercase text-sm font-bold">Shop</a>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="26" viewBox="0 0 32 26">
+                                <g id="Group_222" data-name="Group 222" transform="translate(-540.903 -133)">
+                                  <line id="Line_29" data-name="Line 29" x2="30" transform="translate(541.903 134)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                                  <line id="Line_30" data-name="Line 30" x2="30" transform="translate(541.903 146)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                                  <line id="Line_31" data-name="Line 31" x2="30" transform="translate(541.903 158)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                                </g>
+                              </svg>
+                              
+                        </button>
+                    </div>
+                    <nav class="hidden lg:block">
+                        <ul class="flex flex-wrap space-x-0 uppercase text-black items-center font-Noto">
+                            <li class="active"><a href="#" class="block bg-button text-white px-4 py-3 font-bold" aria-current="page">Home</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">New Arrivals</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">Kids</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">Youth</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">Women</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">Men</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">Bags & Accessaries</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">GIFT GUIDE</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">FLASH EVENTS</a></li>
+                            <li><a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-3 font-bold">CLEARANCE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Menu Ends 
+                 Header Notice Starts -->
+            <div class="header--notice bg-black">
+                <div class="container max-w-full mx-auto">
+                    <div class="flex items-center justify-between py-4">
+                        <div class="flex items-center">
+                            <div class="block lg:inline-flex items-center border-2 py-1 px-3 border-white lg:border-0">
+                                <div class="font-bold text-white text-center text-xs lg:text-sm mr-0 lg:w-12 lg:mr-6">ENDS IN:</div>
+                                <div class="hidden lg:flex text-white border-2 border-white px-5 py-3 space-x-7">
+                                    <div class="text-center">
+                                        <h4 class="text-3xl leading-none font-bold">08</h4>
+                                        <p class="text-xs font-bold">HRS</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <h4 class="text-3xl leading-none font-bold">39</h4>
+                                        <p class="text-xs font-bold">MIN</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <h4 class="text-3xl leading-none font-bold">05</h4>
+                                        <p class="text-xs font-bold">SEC</p>
+                                    </div>
+                                </div>
+                                <div class="inline-block lg:hidden text-3xl leading-none font-bold text-white text-center">08:39:05</div>
+                            </div>
+                            <div class="bg-white text-black text-center font-Proxima-condensed font-bold px-3 text-[12px] leading-none py-3 w-20 ms-2 lg:w-auto lg:text-sm lg:leading-7 lg:ms-7">LIMITED TIME ONLY</div>
+                        </div>
+
+                        <div class="flex flex-col lg:flex-row items-center space-x-5">
+                            <div class="inline-flex items-center space-x-5">
+                                <div class="uppercase font-bold leading-none text-white">up<br>to</div>
+                                <div class="text-6xl font-Proxima-condensed font-bold text-white">50% OFF</div>
+                            </div>
+                            <div class="uppercase text-white text-2xl font-Proxima-condensed">+ FREE SHIPPING ON ORDERS OVER $59</div>
+                        </div>
+
+                        <div class="block lg:inline-flex items-center">
+                            <div class="font-bold text-white text-center">USE CODE:</div>
+                            <div class="bg-white text-black font-Proxima-condensed font-bold px-2 leading-7 ms-4">SALE50</div>
+                            <div class="w-14 text-white text-center text-[10px] leading-none font-bold ms-3">*Some restrictions apply</div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Header Notice Ends -->
+        </header>
+        <main class="main--content">
+
+            <div class="relative bg-cover bg-center" style="background-image: url(images/newsletter-bg.jpg);">
+                <div class="overlay absolute top-0 left-0 w-full h-full flex bg-accent-3 mix-blend-multiply opacity-80"></div>
+                <div class="container-narrow">
+                    <div class="block relative py-16 text-center">
+                        <h2 class="h2 md:h1 text-white font-black mb-3">
+                            <span class="font-normal">TEAM TESTED.</span> FAN APPROVED.
+                        </h2>
+                        <h4 class="font-Proxima-condensed text-lg text-accent font-bold leading-none">SHOP THE COLLECTION</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category Starts -->
+            <div class="single-category-wrapper py-5">
+                <div class="container-narrow">
+                    <!-- Breadcrumb Starts -->
+                    <div class="flex items-center justify-between">
+                        <nav class="flex" aria-label="Breadcrumb">
+                            <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                                <li class="inline-flex items-center">
+                                    <a href="#" class="text-xs text-black uppercase">
+                                            Home
+                                        </a>
+                                </li>
+                                <li>
+                                    <div class="flex items-center">
+                                        <span>/</span>
+                                        <a href="#" class="ml-3 text-xs text-black uppercase">Men's</a>
+                                    </div>
+                                </li>
+                                <li aria-current="page">
+                                    <div class="flex items-center">
+                                        <span>/</span>
+                                        <span class="ml-3 text-xs text-black uppercase">Clothing</span>
+                                    </div>
+                                </li>
+                            </ol>
+                        </nav>
+                        <div class="relative inline-flex items-center space-x-2">
+                            <svg id="Group_232" data-name="Group 232" xmlns="http://www.w3.org/2000/svg" width="20.412" height="22.207" viewBox="0 0 20.412 22.207">
+                                <g id="Group_231" data-name="Group 231" transform="translate(0.5 0.5)">
+                                  <g id="Group_233" data-name="Group 233">
+                                    <line id="Line_34" data-name="Line 34" x1="4.905" y1="4.975" transform="translate(14.3 16.024)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                    <circle id="Ellipse_29" data-name="Ellipse 29" cx="8.917" cy="8.917" r="8.917" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                  </g>
+                                </g>
+                              </svg>
+                            <span>Search</span>
+                        </div>
+                    </div>
+                    <!-- Breadcrumb Ends
+                         Main Collection Starts -->
+                    <div class="flex space-x-5">
+                        <div class="w-[250px]">
+                            <div class="filter-items block">
+                                <div class="block">
+                                    <button class="flex items-center font-bold text-black text-xs px-3 rounded-3xl bg-[#F2F2F2] h-10 mb-3">XL <svg class="w-6 ms-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.226" height="37.226" viewBox="0 0 37.226 37.226">
+                                        <defs>
+                                          <clipPath id="clip-path">
+                                            <rect id="Rectangle_71" data-name="Rectangle 71" width="26.323" height="26.323" transform="translate(0 0.001)" fill="none" stroke="#000" stroke-width="1"/>
+                                          </clipPath>
+                                        </defs>
+                                        <g id="Group_187" data-name="Group 187" transform="translate(18.614 0) rotate(45)">
+                                          <g id="Group_186" data-name="Group 186" clip-path="url(#clip-path)">
+                                            <line id="Line_27" data-name="Line 27" y2="25.324" transform="translate(13.162 0.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                            <line id="Line_28" data-name="Line 28" x1="25.324" transform="translate(0.5 13.162)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                          </g>
+                                        </g>
+                                      </svg>
+                                      </button>
+                                    <button class="flex items-center font-bold text-black text-xs px-2 rounded-3xl bg-[#F2F2F2] h-10 mb-3">
+                                        <span class="inline-block bg-[#315147] w-[30px] h-[30px] rounded-full"></span>
+                                        <svg class="w-6 ms-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.226" height="37.226" viewBox="0 0 37.226 37.226">
+                                        <defs>
+                                          <clipPath id="clip-path">
+                                            <rect id="Rectangle_71" data-name="Rectangle 71" width="26.323" height="26.323" transform="translate(0 0.001)" fill="none" stroke="#000" stroke-width="1"/>
+                                          </clipPath>
+                                        </defs>
+                                        <g id="Group_187" data-name="Group 187" transform="translate(18.614 0) rotate(45)">
+                                          <g id="Group_186" data-name="Group 186" clip-path="url(#clip-path)">
+                                            <line id="Line_27" data-name="Line 27" y2="25.324" transform="translate(13.162 0.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                            <line id="Line_28" data-name="Line 28" x1="25.324" transform="translate(0.5 13.162)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                          </g>
+                                        </g>
+                                      </svg>
+                                      </button>
+                                </div>
+                                <button class="flex-shrink text-sm font-bold border-b border-black mt-10" aria-label="Clear All">Clear All Filters</button>
+
+                            </div>
+                            <!-- widget -->
+                            <div class="widget border-t border-black pt-6 mt-10">
+                                <button class="widget-title w-full text-black font-bold text-sm flex items-center justify-between mb-5">
+                                    <span>Personalize</span>
+                                    <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957" viewBox="0 0 20.889 11.957">
+                                        <path id="Path_3747" data-name="Path 3747" d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106" transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                                      </svg>
+
+                                    </button>
+                                <div class="widget-content">
+                                    <div class="relative bg-[#F2F2F2] before:content-['_'] before:w-[1px] before:top-[6px] before:bottom-[6px] before:bg-[#707070] before:absolute before:right-11">
+                                        <select id="countries" class="relative z-10 text-xs font-bold text-black w-full px-[10px] py-3 h-12 bg-transparent appearance-none focus-visible:outline-none">
+                                            <option selected>Select Relationship</option>
+                                            <option value="US">United States</option>
+                                            <option value="CA">Canada</option>
+                                            <option value="FR">France</option>
+                                            <option value="DE">Germany</option>
+                                          </select>
+                                        <svg class="w-[18px] absolute right-[12px] top-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957" viewBox="0 0 20.889 11.957">
+                                            <path id="Path_3745" data-name="Path 3745" d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106" transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                                          </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- widget -->
+                            <div class="widget border-t border-black pt-6 mt-10">
+                                <button class="widget-title w-full text-black font-bold text-sm flex items-center justify-between">
+                                    <span>Personalize</span>
+                                    <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957" viewBox="0 0 20.889 11.957">
+                                        <path id="Path_3747" data-name="Path 3747" d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106" transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                                      </svg>
+
+                                    </button>
+                                <div class="widget-content">
+                                    <div class="flex mt-7 space-x-3">
+                                        <label>
+                                            <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0">
+                                            <span class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px]
+                                            peer-checked:bg-transparent 
+                                            peer-checked:border 
+                                            peer-checked:border-black 
+                                            peer-checked:before:content-['_'] 
+                                            peer-checked:before:absolute 
+                                            peer-checked:before:bg-no-repeat 
+                                            peer-checked:before:rounded-full 
+                                            peer-checked:before:bg-center 
+                                            peer-checked:before:bg-checkmark 
+                                            peer-checked:before:bg-accent-2 
+                                            peer-checked:before:w-[24px] 
+                                            peer-checked:before:h-[24px] 
+                                            peer-checked:before:left-[-8px] 
+                                            peer-checked:before:top-[-8px] 
+                                            peer-checked:before:border-2 
+                                            peer-checked:before:border-white" 
+                                            style="background-color: #315147;">
+                                            <span class="sr-only">Green</span>
+                                            </span>                                        
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0">
+                                            <span class="style-swatch relative block border border-black bg-media rounded-full w-[40px] h-[40px]
+                                            peer-checked:bg-transparent 
+                                            peer-checked:border 
+                                            peer-checked:border-black 
+                                            peer-checked:before:content-['_'] 
+                                            peer-checked:before:absolute 
+                                            peer-checked:before:bg-no-repeat 
+                                            peer-checked:before:rounded-full 
+                                            peer-checked:before:bg-center 
+                                            peer-checked:before:bg-checkmark 
+                                            peer-checked:before:bg-accent-2 
+                                            peer-checked:before:w-[24px] 
+                                            peer-checked:before:h-[24px] 
+                                            peer-checked:before:left-[-8px] 
+                                            peer-checked:before:top-[-8px] 
+                                            peer-checked:before:border-2 
+                                            peer-checked:before:border-white" 
+                                            style="background-color: #fff;">
+                                            <span class="sr-only">White</span>
+                                            </span>                                        
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0">
+                                            <span class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px]
+                                            peer-checked:bg-transparent 
+                                            peer-checked:border 
+                                            peer-checked:border-black 
+                                            peer-checked:before:content-['_'] 
+                                            peer-checked:before:absolute 
+                                            peer-checked:before:bg-no-repeat 
+                                            peer-checked:before:rounded-full 
+                                            peer-checked:before:bg-center 
+                                            peer-checked:before:bg-checkmark 
+                                            peer-checked:before:bg-accent-2 
+                                            peer-checked:before:w-[24px] 
+                                            peer-checked:before:h-[24px] 
+                                            peer-checked:before:left-[-8px] 
+                                            peer-checked:before:top-[-8px] 
+                                            peer-checked:before:border-2 
+                                            peer-checked:before:border-white" 
+                                            style="background-color: #FFDB00;">
+                                            <span class="sr-only">Yellow</span>
+                                            </span>                                        
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0">
+                                            <span class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px]
+                                            peer-checked:bg-transparent 
+                                            peer-checked:border 
+                                            peer-checked:border-black 
+                                            peer-checked:before:content-['_'] 
+                                            peer-checked:before:absolute 
+                                            peer-checked:before:bg-no-repeat 
+                                            peer-checked:before:rounded-full 
+                                            peer-checked:before:bg-center 
+                                            peer-checked:before:bg-checkmark 
+                                            peer-checked:before:bg-accent-2 
+                                            peer-checked:before:w-[24px] 
+                                            peer-checked:before:h-[24px] 
+                                            peer-checked:before:left-[-8px] 
+                                            peer-checked:before:top-[-8px] 
+                                            peer-checked:before:border-2 
+                                            peer-checked:before:border-white" 
+                                            style="background-color: #000;">
+                                            <span class="sr-only">Black</span>
+                                            </span>                                        
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- widget -->
+
+
+                        </div>
+                        <div class="flex-1">
+                            <img src="images/Screenshot 2023-05-02 215454.jpg" alt="" class="w-full">
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </main>
+        <footer class="bg-black py-5">
+            <div class="container-narrow">
+                <div class="block md:flex md:justify-between mt-16 md:mt-10 lg:mt-24">
+                    <div class="md:w-1/3">
+                        <div class="image-contain">
+                            <img src="images/footer-logo.svg" class="max-w-[260px]">
+                        </div>
+                        <p class="text-white leading-7 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    </div>
+                    <div class="md:w-1/2 lg:w-1/3">
+                        <div class="flex mt-10">
+                            <div class="w-1/2">
+                                <h4 class="text-md font-bold text-white">Shop</h4>
+                                <ul class="space-y-5 text-sm mt-10">
+                                    <li class="flex items-baseline"><a class="transition-colors duration-200 text-white hover:text-accent" href="#">View Collections</a></li>
+                                    <li class="flex items-baseline"><a class="transition-colors duration-200 text-white hover:text-accent" href="#">Shop Popular</a></li>
+                                    <li class="flex items-baseline"><a class="transition-colors duration-200 text-white hover:text-accent" href="#">Shop New</a></li>
+                                    <li class="flex items-baseline"><a class="transition-colors duration-200 text-white hover:text-accent" href="#">Shop All</a></li>
+                                </ul>
+                            </div>
+                            <div class="w-1/2">
+                                <h4 class="text-md font-bold text-white">Support</h4>
+                                <ul class="space-y-5 text-sm mt-10">
+                                    <li class="flex items-baseline"><a class="transition-colors duration-200 text-white hover:text-accent" href="#">Shipping & Returns</a></li>
+                                    <li class="flex items-baseline"><a class="transition-colors duration-200 text-white hover:text-accent" href="#">Submit Feedback</a></li>
+                                    <li class="flex items-baseline"><a class="transition-colors duration-200 text-white hover:text-accent" href="#">Report an Issue</a></li>
+                                    <li class="flex items-baseline"><a class="transition-colors duration-200 text-white hover:text-accent" href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-social-icons flex mt-10">
+                    <a href="#" title="Facebook" class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29">
+                            <g id="Icon_" data-name="Icon " transform="translate(-0.436 0.493)">
+                              <rect id="Area_ICON:feather_facebook_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/facebook][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28" height="29" transform="translate(0.436 -0.493)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+                              <g id="Icon" transform="translate(8.199 2.343)">
+                                <path id="Path" d="M18.718,1.667H15.2A5.856,5.856,0,0,0,9.347,7.523v3.514H5.833v4.686H9.347v9.369h4.686V15.723h3.514l1.171-4.686H14.033V7.523A1.171,1.171,0,0,1,15.2,6.352h3.514Z" transform="translate(-5.833 -1.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </a>
+                    <a href="#" title="Twitter" class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28.143" height="29" viewBox="0 0 28.143 29">
+                            <g id="Icon_" data-name="Icon " transform="translate(-0.337 0.493)">
+                              <rect id="Area_ICON:feather_twitter_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/twitter][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28" height="29" transform="translate(0.48 -0.493)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+                              <g id="Icon" transform="translate(1.171 3.502)">
+                                <path id="Path" d="M26.6,2.5A12.783,12.783,0,0,1,22.924,4.3,5.247,5.247,0,0,0,13.718,7.81V8.98A12.487,12.487,0,0,1,3.176,3.674S-1.509,14.216,9.033,18.9a13.631,13.631,0,0,1-8.2,2.342c10.542,5.857,23.427,0,23.427-13.47a5.255,5.255,0,0,0-.094-.973A9.033,9.033,0,0,0,26.6,2.5Z" transform="translate(-0.833 -2.491)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+                              </g>
+                            </g>
+                          </svg>
+
+                    </a>
+
+                    <a href="#" title="Linkedn" class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                            <g id="Icon_" data-name="Icon " transform="translate(0.476 0.493)">
+                              <rect id="Area_ICON:feather_linkedin_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/linkedin][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="29" height="29" transform="translate(-0.476 -0.493)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+                              <g id="Icon" transform="translate(2.343 2.343)">
+                                <path id="Path" d="M15.361,6.667a7.027,7.027,0,0,1,7.028,7.028v8.2H17.7v-8.2a2.342,2.342,0,1,0-4.685,0v8.2H8.333v-8.2A7.028,7.028,0,0,1,15.361,6.667Z" transform="translate(1.037 0.361)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+                                <rect id="Rect" width="4.685" height="14.056" transform="translate(0 8.199)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+                                <circle id="Path-2" data-name="Path" cx="2.343" cy="2.343" r="2.343" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+                              </g>
+                            </g>
+                          </svg>
+                    </a>
+
+                    <a href="#" title="Youtube" class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                            <g id="Icon_" data-name="Icon " transform="translate(0.432 0.493)">
+                              <rect id="Area_ICON:feather_youtube_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/youtube][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="29" height="29" transform="translate(-0.432 -0.493)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+                              <g id="Icon" transform="translate(1.17 4.685)">
+                                <path id="Path" d="M26.063,6.168a3.256,3.256,0,0,0-2.271-2.343c-2.016-.492-10.074-.492-10.074-.492s-8.058,0-10.074.54A3.254,3.254,0,0,0,1.373,6.214a33.937,33.937,0,0,0-.54,6.2,33.919,33.919,0,0,0,.54,6.242A3.255,3.255,0,0,0,3.644,20.9c2.016.54,10.074.54,10.074.54s8.058,0,10.074-.54a3.254,3.254,0,0,0,2.271-2.342,33.917,33.917,0,0,0,.54-6.149A33.934,33.934,0,0,0,26.063,6.168Z" transform="translate(-0.833 -3.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+                                <path id="Path-2" data-name="Path" d="M8.125,14.727,14.86,10.9,8.125,7.067Z" transform="translate(2.125 -1.819)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+                              </g>
+                            </g>
+                          </svg>
+
+                    </a>
+
+                </div>
+                <div class="text-white text-xs mt-36">
+                    ©2023 1st Place Spiritwear. All Rights Reserved. All trademarks and registered trademarks are property of their owners. <a href="#">Privacy Policy / Terms of Service</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
