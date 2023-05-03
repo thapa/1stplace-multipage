@@ -25,10 +25,10 @@ module.exports = {
                 'Proxima-condensed': 'proxima-nova-condensed, sans-serif;'
             },
             maxWidth: {
-                'narrow': '1260px'
+                'narrow': '1400px'
             },
             backgroundImage: {
-                'checkmark': "url('../build/images/check-icon.svg')"
+                'checkmark': "url('/build/images/check-icon.svg')"
             },
             fontSize: {
                 xxs: '12px',

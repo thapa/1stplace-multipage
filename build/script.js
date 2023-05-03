@@ -29,9 +29,13 @@ swiper_sections.forEach((section) => {
 const collapses = document.querySelectorAll('.widget');
 collapses.forEach((collapse) => {
     const button = collapse.querySelector('button');
+    const icon = button.querySelector('svg');
     const content = collapse.querySelector('.widget-content');
     button.addEventListener('click', () => {
-        button.closest('.widget').classList.toggle('active');
+        //button.closest('.widget').classList.toggle('collapsed');
+        content.classList.toggle('collapsed');
+        icon.classList.toggle('rotate-180');
+
     })
 })
 

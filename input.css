@@ -50,6 +50,16 @@
     .modal-open {
         @apply overflow-hidden
     }
+
+    .widget-content {
+        @apply max-h-screen
+    }
+
+    .collapsed {
+        @apply max-h-0 overflow-hidden
+    }
+   
+
 } 
 
 @layer utilities {
@@ -75,3 +85,4 @@
 [aria-modal="false"] {
     display: none;
 } 
+
