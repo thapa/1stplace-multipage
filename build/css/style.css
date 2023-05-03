@@ -897,6 +897,10 @@ h4,
   margin-top: 4rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
 .mt-36{
   margin-top: 9rem;
 }
@@ -915,10 +919,6 @@ h4,
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-20{
-  margin-top: 5rem;
 }
 
 .block{
@@ -973,6 +973,10 @@ h4,
   height: 40px;
 }
 
+.h-\[48px\]{
+  height: 48px;
+}
+
 .h-\[50px\]{
   height: 50px;
 }
@@ -983,10 +987,6 @@ h4,
 
 .h-full{
   height: 100%;
-}
-
-.h-\[48px\]{
-  height: 48px;
 }
 
 .min-h-full{
@@ -1103,10 +1103,6 @@ h4,
 
 .max-w-full{
   max-width: 100%;
-}
-
-.max-w-xs{
-  max-width: 20rem;
 }
 
 .flex-1{
@@ -1429,10 +1425,6 @@ h4,
 
 .bg-\[url\(\'images\/cta-bg\.jpg\'\)\]{
   background-image: url('images/cta-bg.jpg');
-}
-
-.bg-\[url\(\'images\/newsletter-bg\.jpg\'\)\]{
-  background-image: url('images/newsletter-bg.jpg');
 }
 
 .bg-cover{
@@ -2200,12 +2192,6 @@ h4,
   }
 }
 
-@media (max-width: 400px){
-  .max-\[400px\]\:block{
-    display: block;
-  }
-}
-
 @media (min-width: 640px){
   .sm\:my-8{
     margin-top: 2rem;
@@ -2348,12 +2334,12 @@ h4,
     font-size: 34px;
   }
 
-  .md\:text-xs{
-    font-size: 15px;
-  }
-
   .md\:text-lg{
     font-size: 40px;
+  }
+
+  .md\:text-xs{
+    font-size: 15px;
   }
 }
 
