@@ -2254,7 +2254,7 @@ h4,
 
 .peer:checked ~ .peer-checked\:before\:bg-checkmark::before{
   content: var(--tw-content);
-  background-image: url('../build/images/check-icon.svg');
+  background-image: url('/images/check-icon.svg');
 }
 
 .peer:checked ~ .peer-checked\:before\:bg-center::before{
