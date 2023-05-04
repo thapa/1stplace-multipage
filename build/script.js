@@ -57,3 +57,10 @@ openFilter.forEach((button) => {
         document.querySelector('[drawer-backdrop]').classList.toggle('hidden');
     })
 })
+
+const quickView = document.querySelector('[data-quick-view]').addEventListener('click', () => {
+    //const modalId = '#' + modal.getAttribute('data-modal-target');
+    document.querySelector('#quickview').setAttribute('aria-modal', 'true');
+    document.querySelector('html').classList.add('modal-open');
+
+})
