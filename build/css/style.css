@@ -1956,6 +1956,12 @@ h4,
     line-height: 1;
   }
 
+  .md\:h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
   .md\:h3{
     font-size: 30px;
     font-weight: 700;
@@ -2581,6 +2587,10 @@ h4,
     width: 60%;
   }
 
+  .md\:w-\[70\%\]{
+    width: 70%;
+  }
+
   .md\:max-w-\[450px\]{
     max-width: 450px;
   }
@@ -2713,6 +2723,10 @@ h4,
 
   .lg\:w-1\/4{
     width: 25%;
+  }
+
+  .lg\:w-1\/5{
+    width: 20%;
   }
 
   .lg\:flex-auto{
