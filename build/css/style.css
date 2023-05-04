@@ -796,8 +796,20 @@ h4,
   top: 40%;
 }
 
+.right-0{
+  right: 0px;
+}
+
+.top-\[14px\]{
+  top: 14px;
+}
+
 .z-10{
   z-index: 10;
+}
+
+.z-40{
+  z-index: 40;
 }
 
 .m-0{
@@ -1017,6 +1029,14 @@ h4,
   height: 6rem;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
+.h-\[60px\]{
+  height: 60px;
+}
+
 .min-h-full{
   min-height: 100%;
 }
@@ -1113,6 +1133,26 @@ h4,
   width: 6rem;
 }
 
+.w-80{
+  width: 20rem;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[6px\]{
+  width: 6px;
+}
+
+.w-\[15px\]{
+  width: 15px;
+}
+
+.w-\[100px\]{
+  width: 100px;
+}
+
 .min-w-\[150px\]{
   min-width: 150px;
 }
@@ -1127,6 +1167,10 @@ h4,
 
 .max-w-\[200px\]{
   max-width: 200px;
+}
+
+.max-w-\[100px\]{
+  max-width: 100px;
 }
 
 .flex-1{
@@ -1155,6 +1199,16 @@ h4,
 
 .grow{
   flex-grow: 1;
+}
+
+.-translate-x-full{
+  --tw-translate-x: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-full{
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .rotate-180{
@@ -1308,6 +1362,10 @@ h4,
 
 .overflow-y-auto{
   overflow-y: auto;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
 
 .rounded{
@@ -1867,6 +1925,12 @@ h4,
   transition-duration: 150ms;
 }
 
+.transition-transform{
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-200{
   transition-duration: 200ms;
 }
@@ -2374,6 +2438,13 @@ h4,
   content: var(--tw-content);
 }
 
+@media (prefers-color-scheme: dark){
+  .dark\:bg-gray-800{
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  }
+}
+
 @media (max-width: 600px){
   .max-\[600px\]\:block{
     display: block;
@@ -2490,6 +2561,10 @@ h4,
     height: 140px;
   }
 
+  .md\:h-\[40px\]{
+    height: 40px;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
@@ -2512,6 +2587,14 @@ h4,
 
   .md\:w-\[60\%\]{
     width: 60%;
+  }
+
+  .md\:w-\[40px\]{
+    width: 40px;
+  }
+
+  .md\:w-\[250px\]{
+    width: 250px;
   }
 
   .md\:max-w-\[450px\]{
@@ -2540,6 +2623,10 @@ h4,
 
   .md\:gap-5{
     gap: 1.25rem;
+  }
+
+  .md\:gap-3{
+    gap: 0.75rem;
   }
 
   .md\:space-x-10 > :not([hidden]) ~ :not([hidden]){

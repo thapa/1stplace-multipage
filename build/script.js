@@ -48,3 +48,8 @@ perosnlizeBtnAll.forEach((modal) => {
 
     })
 })
+
+const openFilter = document.querySelector('#open-filter').addEventListener("click", () => {
+    document.body.classList.toggle('overflow-hidden');
+    document.querySelector('#off-canvas-menu').classList.toggle('transform-none');
+})
