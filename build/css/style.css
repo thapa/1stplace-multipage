@@ -569,8 +569,8 @@ h4,
 
 .container{
   width: 100%;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (min-width: 640px){
@@ -605,8 +605,8 @@ h4,
 
 .container-narrow{
   width: 100%;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (min-width: 640px){
@@ -825,6 +825,11 @@ h4,
   margin: auto;
 }
 
+.-mx-3{
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
 .-mx-\[10px\]{
   margin-left: -10px;
   margin-right: -10px;
@@ -838,6 +843,11 @@ h4,
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.-mx-2{
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 .mb-0{
@@ -1308,6 +1318,24 @@ h4,
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.-space-x-1 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(-0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(-0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.-space-x-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(-0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(-0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.-space-x-3 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(-0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(-0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-auto{
   overflow: auto;
 }
@@ -1475,10 +1503,6 @@ h4,
 
 .bg-opacity-90{
   --tw-bg-opacity: 0.9;
-}
-
-.bg-\[url\(\'images\/cta-bg\.jpg\'\)\]{
-  background-image: url('images/cta-bg.jpg');
 }
 
 .bg-cover{
@@ -1765,10 +1789,6 @@ h4,
 
 .normal-case{
   text-transform: none;
-}
-
-.leading-10{
-  line-height: 2.5rem;
 }
 
 .leading-4{
