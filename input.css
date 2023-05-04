@@ -56,7 +56,7 @@
     }
 
     .collapsed {
-        @apply max-h-0 overflow-hidden
+        @apply max-h-0 overflow-hidden mb-0
     }
    
 

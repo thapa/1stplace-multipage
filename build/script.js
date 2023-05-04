@@ -49,7 +49,11 @@ perosnlizeBtnAll.forEach((modal) => {
     })
 })
 
-const openFilter = document.querySelector('#open-filter').addEventListener("click", () => {
-    document.body.classList.toggle('overflow-hidden');
-    document.querySelector('#off-canvas-menu').classList.toggle('transform-none');
+const openFilter = document.querySelectorAll('[data-open-filter]');
+openFilter.forEach((button) => {
+    button.addEventListener("click", () => {
+        document.body.classList.toggle('overflow-hidden');
+        document.querySelector('#off-canvas-menu').classList.toggle('transform-none');
+        document.querySelector('[drawer-backdrop]').classList.toggle('hidden');
+    })
 })
