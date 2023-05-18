@@ -1,1995 +1,1197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://use.typekit.net/rnn6kug.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Product Page</title>
-  </head>
 
-  <body>
-    <div id="root">
-      <header>
-        <!-- Header Top Starts -->
-        <div class="header--top py-[10px]">
-          <div class="container mx-auto">
-            <div class="header--inner flex items-center justify-between">
-              <div class="logo flex space-x-3 md:space-x-6">
-                <a href="#" class="inline-flex"
-                  ><img src="images/logo.svg" class="w-[180px]"
-                /></a>
-                <div class="w-[1px] bg-slate-400"></div>
-                <div
-                  class="school-name flex items-center space-x-3 md:space-x-[15px]">
-                  <div class="w-[60px]">
-                    <img src="images/Unknown.svg" />
-                  </div>
-                  <div>
-                    <h4
-                      class="text-accent-3 text-[24px] lg:text-[34px] font-bold font-Noto">
-                      MEDINA BEES
-                    </h4>
-                    <p class="text-[#3D3D3D] mt-1">Medina, OH</p>
-                  </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.typekit.net/rnn6kug.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Product Page</title>
+</head>
+
+<body>
+  <div id="root">
+    <header>
+      <!-- Header Top Starts -->
+      <div class="header--top py-[10px]">
+        <div class="container mx-auto">
+          <div class="header--inner flex items-center justify-between">
+            <div class="logo flex space-x-3 md:space-x-6">
+              <a href="#" class="inline-flex"><img src="images/logo.svg" class="w-[180px]" /></a>
+              <div class="w-[1px] bg-slate-400"></div>
+              <div class="school-name flex items-center space-x-3 md:space-x-[15px]">
+                <div class="w-[60px]">
+                  <img src="images/Unknown.svg" />
+                </div>
+                <div>
+                  <h4 class="text-accent-3 text-[24px] lg:text-[34px] font-bold font-Noto">
+                    MEDINA BEES
+                  </h4>
+                  <p class="text-[#3D3D3D] mt-1">Medina, OH</p>
                 </div>
               </div>
-              <div class="header--location text-sm hidden md:block">
-                <a href="#" class="inline-flex text-black space-x-4">
-                  <img src="images/change_icon.svg" class="w-7" />
-                  <span>Change School</span>
-                </a>
-              </div>
+            </div>
+            <div class="header--location text-sm hidden md:block">
+              <a href="#" class="inline-flex text-black space-x-4">
+                <img src="images/change_icon.svg" class="w-7" />
+                <span>Change School</span>
+              </a>
             </div>
           </div>
         </div>
-        <!-- Header Top Ends            
+      </div>
+      <!-- Header Top Ends            
                 Menu Starts -->
-        <div class="bg-accent">
-          <div class="container mx-auto">
-            <div class="mobile-nav flex lg:hidden justify-between py-2">
-              <a href="#" class="uppercase text-sm font-bold">Shop</a>
-              <button>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="26"
-                  viewBox="0 0 32 26">
-                  <g
-                    id="Group_222"
-                    data-name="Group 222"
-                    transform="translate(-540.903 -133)">
-                    <line
-                      id="Line_29"
-                      data-name="Line 29"
-                      x2="30"
-                      transform="translate(541.903 134)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-linecap="round"
-                      stroke-width="2" />
-                    <line
-                      id="Line_30"
-                      data-name="Line 30"
-                      x2="30"
-                      transform="translate(541.903 146)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-linecap="round"
-                      stroke-width="2" />
-                    <line
-                      id="Line_31"
-                      data-name="Line 31"
-                      x2="30"
-                      transform="translate(541.903 158)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-linecap="round"
-                      stroke-width="2" />
-                  </g>
-                </svg>
-              </button>
-            </div>
-            <nav class="hidden lg:block">
-              <ul
-                class="text-xs flex flex-wrap space-x-0 uppercase text-black items-center font-Noto">
-                <li class="active">
-                  <a
-                    href="#"
-                    class="block bg-button text-white px-4 py-2 font-bold"
-                    aria-current="page"
-                    >Home</a
-                  >
+      <div class="bg-accent">
+        <div class="container mx-auto">
+          <div class="mobile-nav flex lg:hidden justify-between py-2">
+            <a href="#" class="uppercase text-sm font-bold">Shop</a>
+            <button>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="26" viewBox="0 0 32 26">
+                <g id="Group_222" data-name="Group 222" transform="translate(-540.903 -133)">
+                  <line id="Line_29" data-name="Line 29" x2="30" transform="translate(541.903 134)" fill="none"
+                    stroke="#000" stroke-linecap="round" stroke-width="2" />
+                  <line id="Line_30" data-name="Line 30" x2="30" transform="translate(541.903 146)" fill="none"
+                    stroke="#000" stroke-linecap="round" stroke-width="2" />
+                  <line id="Line_31" data-name="Line 31" x2="30" transform="translate(541.903 158)" fill="none"
+                    stroke="#000" stroke-linecap="round" stroke-width="2" />
+                </g>
+              </svg>
+            </button>
+          </div>
+          <nav class="hidden lg:block">
+            <ul class="text-xs flex flex-wrap space-x-0 uppercase text-black items-center font-Noto">
+              <li class="active">
+                <a href="#" class="block bg-button text-white px-4 py-2 font-bold" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Kids</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Women</a>
+              </li>
+              <li>
+                <a href="collection.html" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Men</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Tees</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Sweats</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Hats</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Drink ware</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Accessories</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Sports</a>
+              </li>
+              <li>
+                <a href="shop-by-design.html" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Shop
+                  by Design</a>
+              </li>
+              <li>
+                <a href="#" class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold">Sale</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Menu End-->
+    </header>
+    <main class="main--content">
+      <!-- Product Starts -->
+      <div class="single-product-wrapper pt-[30px] lg:pt-20 pb-10">
+        <div class="container-narrow">
+          <div class="flex items-center justify-between mb-5">
+            <nav class="flex" aria-label="Breadcrumb">
+              <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                <li class="inline-flex items-center">
+                  <a href="#" class="text-xxs leading-none md:text-xs text-black uppercase">
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Kids</a
-                  >
+                  <div class="flex items-center">
+                    <span>/</span>
+                    <a href="#" class="ml-3 text-xxs leading-none md:text-xs text-black uppercase">Men's</a>
+                  </div>
                 </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Women</a
-                  >
+                <li aria-current="page">
+                  <div class="flex items-center">
+                    <span>/</span>
+                    <span class="ml-3 text-xxs leading-none md:text-xs text-black uppercase">Adult Bella+Canvas Short
+                      Sleeve Tee</span>
+                  </div>
                 </li>
-                <li>
-                  <a
-                    href="collection.html"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Men</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Tees</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Sweats</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Hats</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Drink ware</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Accessories</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Sports</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Shop by Design</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="block hover:bg-[#315147] hover:text-white px-4 py-2 font-bold"
-                    >Sale</a
-                  >
-                </li>
-              </ul>
+              </ol>
             </nav>
           </div>
-        </div>
-        <!-- Menu End-->
-      </header>
-      <main class="main--content">
-        <!-- Product Starts -->
-        <div class="single-product-wrapper pt-[30px] lg:pt-20 pb-10">
-          <div class="container-narrow">
-            <div class="flex items-center justify-between mb-5">
-              <nav class="flex" aria-label="Breadcrumb">
-                <ol class="inline-flex items-center space-x-1 md:space-x-3">
-                  <li class="inline-flex items-center">
-                    <a
-                      href="#"
-                      class="text-xxs leading-none md:text-xs text-black uppercase">
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <div class="flex items-center">
-                      <span>/</span>
-                      <a
-                        href="#"
-                        class="ml-3 text-xxs leading-none md:text-xs text-black uppercase"
-                        >Men's</a
-                      >
-                    </div>
-                  </li>
-                  <li aria-current="page">
-                    <div class="flex items-center">
-                      <span>/</span>
-                      <span
-                        class="ml-3 text-xxs leading-none md:text-xs text-black uppercase"
-                        >Adult Bella+Canvas Short Sleeve Tee</span
-                      >
-                    </div>
-                  </li>
-                </ol>
-              </nav>
-            </div>
-            <div class="block md:flex md:space-x-[50px]">
-              <div class="product-media md:w-1/2 relative">
-                <div class="sticky top-10">
-                  <div class="image-contain bg-media rounded-[10px] p-3">
-                    <img
-                      src="images/product.png"
-                      data-product-front
-                      alt=""
-                      class="w-full" />
-                    <span
-                      class="bg-[#E6001B] text-white text-xxs md:text-xs font-bold py-1 px-2 absolute top-5 right-5"
-                      >50% OFF</span
-                    >
-                  </div>
-                  <div class="flex items-center justify-around space-x-5 mt-5">
-                    <button
-                      class="text-center font-bold text-sm md:text-2xl px-3 border-b-2 border-black">
-                      Front
-                    </button>
-                    <button
-                      class="text-center font-bold text-sm md:text-2xl px-3 border-b-2 border-transparent">
-                      Back
-                    </button>
-                  </div>
-                  <button class="absolute top-5 left-5">
-                    <svg
-                      id="Group_151"
-                      data-name="Group 151"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      width="28.831"
-                      height="30.413"
-                      viewBox="0 0 28.831 30.413">
-                      <defs>
-                        <clipPath id="clip-path">
-                          <rect
-                            id="Rectangle_52"
-                            data-name="Rectangle 52"
-                            width="28.831"
-                            height="30.413"
-                            fill="none"
-                            stroke="#000"
-                            stroke-width="1" />
-                        </clipPath>
-                      </defs>
-                      <line
-                        id="Line_24"
-                        data-name="Line 24"
-                        y2="11.795"
-                        transform="translate(12.785 6.888)"
-                        fill="none"
-                        stroke="#000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1" />
-                      <line
-                        id="Line_25"
-                        data-name="Line 25"
-                        x1="11.795"
-                        transform="translate(6.888 12.786)"
-                        fill="none"
-                        stroke="#000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1" />
-                      <g
-                        id="Group_150"
-                        data-name="Group 150"
-                        transform="translate(0 0)">
-                        <g
-                          id="Group_149"
-                          data-name="Group 149"
-                          clip-path="url(#clip-path)">
-                          <path
-                            id="Path_123"
-                            data-name="Path 123"
-                            d="M25,12.747A12.248,12.248,0,1,1,12.748.5,12.247,12.247,0,0,1,25,12.747Z"
-                            transform="translate(0.038 0.038)"
-                            fill="none"
-                            stroke="#000"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="1" />
-                          <line
-                            id="Line_26"
-                            data-name="Line 26"
-                            x1="7.616"
-                            y1="7.726"
-                            transform="translate(20.676 22.15)"
-                            fill="none"
-                            stroke="#000"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="1" />
-                        </g>
-                      </g>
-                    </svg>
+          <div class="block md:flex md:space-x-[50px]">
+            <div class="product-media md:w-1/2 relative">
+              <div class="sticky top-10">
+                <div class="image-contain bg-media rounded-[10px] p-3">
+                  <img src="images/product.png" data-product-front alt="" class="w-full" />
+                  <span
+                    class="bg-[#E6001B] text-white text-xxs md:text-xs font-bold py-1 px-2 absolute top-5 right-5">50%
+                    OFF</span>
+                </div>
+                <div class="flex items-center justify-around space-x-5 mt-5">
+                  <button class="text-center font-bold text-sm md:text-2xl px-3 border-b-2 border-black">
+                    Front
                   </button>
-
-                  <div class="mt-5">
-                    <button
-                      data-modal-target="personalize"
-                      class="hidden md:inline-block text-center font-bold w-full border text-accent-2 border-accent-2 rounded-[10px] text-sm md:text-2xl py-4">
-                      Personalize Back
-                    </button>
-                  </div>
+                  <button class="text-center font-bold text-sm md:text-2xl px-3 border-b-2 border-transparent">
+                    Back
+                  </button>
                 </div>
-              </div>
+                <button class="absolute top-5 left-5">
+                  <svg id="Group_151" data-name="Group 151" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="28.831" height="30.413"
+                    viewBox="0 0 28.831 30.413">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Rectangle_52" data-name="Rectangle 52" width="28.831" height="30.413" fill="none"
+                          stroke="#000" stroke-width="1" />
+                      </clipPath>
+                    </defs>
+                    <line id="Line_24" data-name="Line 24" y2="11.795" transform="translate(12.785 6.888)" fill="none"
+                      stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                    <line id="Line_25" data-name="Line 25" x1="11.795" transform="translate(6.888 12.786)" fill="none"
+                      stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                    <g id="Group_150" data-name="Group 150" transform="translate(0 0)">
+                      <g id="Group_149" data-name="Group 149" clip-path="url(#clip-path)">
+                        <path id="Path_123" data-name="Path 123"
+                          d="M25,12.747A12.248,12.248,0,1,1,12.748.5,12.247,12.247,0,0,1,25,12.747Z"
+                          transform="translate(0.038 0.038)" fill="none" stroke="#000" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-width="1" />
+                        <line id="Line_26" data-name="Line 26" x1="7.616" y1="7.726" transform="translate(20.676 22.15)"
+                          fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                      </g>
+                    </g>
+                  </svg>
+                </button>
 
-              <div class="product-info md:w-1/2 mt-8 md:mt-0">
-                <h1 class="h4 md:h3 mb-2">
-                  Adult Bella+Canvas Short Sleeve Tee
-                </h1>
-                <div class="mb-8">
-                  <div
-                    class="max-[600px]:block flex md:block lg:flex justify-between items-center">
-                    <div class="product-price flex space-x-3">
-                      <span class="text-2xl font-bold">$22.99</span>
-                      <span class="text-2xl line-through">$29.99</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- Product Options Starts -->
-                <div class="product-options text-xs">
-                  <div
-                    class="options-style flex flex-wrap gap-5 items-start mb-[20px]">
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="style"
-                        checked
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <img
-                          src="images/T-shirt-Icon.svg"
-                          alt=""
-                          class="w-[60px] h-[60px] object-contain" />
-                      </span>
-                      <p class="text-center mt-1">T-shirt</p>
-                    </label>
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="style"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <img
-                          src="images/Long-Sleeve-Icon.svg"
-                          alt=""
-                          class="w-[60px] h-[60px] object-contain" />
-                      </span>
-                      <p class="text-center mt-1">Long Sleeve</p>
-                    </label>
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="style"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <img
-                          src="images/Sweatshirt-Icon.svg"
-                          alt=""
-                          class="w-[60px] h-[60px] object-contain" />
-                      </span>
-                      <p class="text-center mt-1">Sweatshirt</p>
-                    </label>
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="style"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <img
-                          src="images/Hoodie-Icon.svg"
-                          alt=""
-                          class="w-[60px] h-[60px] object-contain" />
-                      </span>
-                      <p class="text-center mt-1">Hoodie</p>
-                    </label>
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="style"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <img
-                          src="images/Hats-Icon.svg"
-                          alt=""
-                          class="w-[60px] h-[60px] object-contain" />
-                      </span>
-                      <p class="text-center mt-1">Hats</p>
-                    </label>
-                  </div>
-                  <div
-                    class="options-color flex flex-wrap gap-[10px] items-start mb-[20px]">
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="color"
-                        checked
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
-                        style="background-color: #315147">
-                        <span class="sr-only">Green</span>
-                      </span>
-                    </label>
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="color"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-black bg-media rounded-full w-[40px] h-[40px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
-                        style="background-color: #fff">
-                        <span class="sr-only">White</span>
-                      </span>
-                    </label>
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="color"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
-                        style="background-color: #ffdb00">
-                        <span class="sr-only">Yellow</span>
-                      </span>
-                    </label>
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="color"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
-                        style="background-color: #000">
-                        <span class="sr-only">Black</span>
-                      </span>
-                    </label>
-                    <label class="flex-shrink-0">
-                      <input
-                        type="radio"
-                        name="color"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px] bg-center bg-cover peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
-                        style="background-image: url(images/color-pattern.png)">
-                        <span class="sr-only">Black</span>
-                      </span>
-                    </label>
-                  </div>
-                  <div
-                    class="options-gender flex flex-wrap gap-[10px] items-start mb-[20px]">
-                    <label class="min-w-[150px]">
-                      <input
-                        type="radio"
-                        name="gender"
-                        checked
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] text-center py-1 leading-5 px-4 peer-checked:bg-transparent peer-checked:border peer-checked:font-bold peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>Adult</span>
-                      </span>
-                    </label>
-                    <label class="min-w-[150px]">
-                      <input
-                        type="radio"
-                        name="gender"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] text-center py-1 leading-5 px-4 peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>Youth</span>
-                      </span>
-                    </label>
-                  </div>
-                  <div
-                    class="options-matirial flex flex-wrap gap-[10px] items-start mb-[20px]">
-                    <label class="min-w-[150px]">
-                      <input
-                        type="radio"
-                        name="matirial"
-                        checked
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] text-center py-1 leading-5 px-5 peer-checked:bg-transparent peer-checked:border peer-checked:font-bold peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>Deluxe 100% Cotton</span>
-                      </span>
-                    </label>
-                    <label class="min-w-[150px]">
-                      <input
-                        type="radio"
-                        name="matirial"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media rounded-[5px] text-center py-1 leading-5 px-3 peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>Tri-blend</span>
-                      </span>
-                    </label>
-                  </div>
-
-                  <div
-                    class="options-size flex flex-wrap gap-[10px] items-center mb-5">
-                    <label class="flex-auto max-w-[40px] w-full">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:font-bold peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>XS</span>
-                      </span>
-                    </label>
-                    <label class="flex-auto max-w-[40px] w-full">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>S</span>
-                      </span>
-                    </label>
-                    <label class="flex-auto max-w-[40px] w-full">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>M</span>
-                      </span>
-                    </label>
-                    <label class="flex-auto max-w-[40px] w-full">
-                      <input
-                        type="radio"
-                        name="size"
-                        checked
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>L</span>
-                      </span>
-                    </label>
-                    <label class="flex-auto max-w-[40px] w-full">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>XL</span>
-                      </span>
-                    </label>
-                    <label class="flex-auto max-w-[40px] w-full">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>2XL</span>
-                      </span>
-                    </label>
-                    <label class="flex-auto max-w-[40px] w-full">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
-                        <span>3XL</span>
-                      </span>
-                    </label>
-                    <button
-                      class="font-bold text-accent-2 underline underline-offset-4 ms-3">
-                      View Size Chart
-                    </button>
-                  </div>
-
-                  <button
-                    data-modal-target="personalize"
-                    class="inline-block md:hidden text-center font-bold w-full border text-accent-2 border-accent-2 rounded-[10px] h-[48px] text-xs mb-5">
+                <div class="mt-5">
+                  <button data-modal-target="personalize"
+                    class="hidden md:inline-block text-center font-bold w-full border text-accent-2 border-accent-2 rounded-[10px] text-sm md:text-2xl py-4">
                     Personalize Back
                   </button>
                 </div>
-                <!-- Product Options End -->
-                <div class="product-note text-xs mb-5">
-                  <p>
-                    <strong>Note:</strong> This shirt is Athletic Fit, order 1
-                    size up for traditional/looser fit.
-                  </p>
+              </div>
+            </div>
+
+            <div class="product-info md:w-1/2 mt-8 md:mt-0">
+              <h1 class="h4 md:h3 mb-2">
+                Adult Bella+Canvas Short Sleeve Tee
+              </h1>
+              <div class="mb-8">
+                <div class="max-[600px]:block flex md:block lg:flex justify-between items-center">
+                  <div class="product-price flex space-x-3">
+                    <span class="text-2xl font-bold">$22.99</span>
+                    <span class="text-2xl line-through">$29.99</span>
+                  </div>
                 </div>
-                <div class="product-button mb-[30px]">
-                  <button
-                    data-modal-target="confirm_personalize"
-                    class="text-sm md:text-[24px] font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-accent-2 h-16 px-5 bg-heading text-white py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full">
-                    <span>Add to Cart</span>
+              </div>
+              <!-- Product Options Starts -->
+              <div class="product-options text-xs">
+                <div class="options-style flex flex-wrap gap-5 items-start mb-[20px]">
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="style" checked class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <img src="images/T-shirt-Icon.svg" alt="" class="w-[60px] h-[60px] object-contain" />
+                    </span>
+                    <p class="text-center mt-1">T-shirt</p>
+                  </label>
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="style" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <img src="images/Long-Sleeve-Icon.svg" alt="" class="w-[60px] h-[60px] object-contain" />
+                    </span>
+                    <p class="text-center mt-1">Long Sleeve</p>
+                  </label>
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="style" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <img src="images/Sweatshirt-Icon.svg" alt="" class="w-[60px] h-[60px] object-contain" />
+                    </span>
+                    <p class="text-center mt-1">Sweatshirt</p>
+                  </label>
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="style" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <img src="images/Hoodie-Icon.svg" alt="" class="w-[60px] h-[60px] object-contain" />
+                    </span>
+                    <p class="text-center mt-1">Hoodie</p>
+                  </label>
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="style" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <img src="images/Hats-Icon.svg" alt="" class="w-[60px] h-[60px] object-contain" />
+                    </span>
+                    <p class="text-center mt-1">Hats</p>
+                  </label>
+                </div>
+                <div class="options-color flex flex-wrap gap-[10px] items-start mb-[20px]">
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
+                      style="background-color: #315147">
+                      <span class="sr-only">Green</span>
+                    </span>
+                  </label>
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-black bg-media rounded-full w-[40px] h-[40px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
+                      style="background-color: #fff">
+                      <span class="sr-only">White</span>
+                    </span>
+                  </label>
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
+                      style="background-color: #ffdb00">
+                      <span class="sr-only">Yellow</span>
+                    </span>
+                  </label>
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
+                      style="background-color: #000">
+                      <span class="sr-only">Black</span>
+                    </span>
+                  </label>
+                  <label class="flex-shrink-0">
+                    <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-full w-[40px] h-[40px] bg-center bg-cover peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white"
+                      style="background-image: url(images/color-pattern.png)">
+                      <span class="sr-only">Black</span>
+                    </span>
+                  </label>
+                </div>
+                <div class="options-gender flex flex-wrap gap-[10px] items-start mb-[20px]">
+                  <label class="min-w-[150px]">
+                    <input type="radio" name="gender" checked class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] text-center py-1 leading-5 px-4 peer-checked:bg-transparent peer-checked:border peer-checked:font-bold peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>Adult</span>
+                    </span>
+                  </label>
+                  <label class="min-w-[150px]">
+                    <input type="radio" name="gender" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] text-center py-1 leading-5 px-4 peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>Youth</span>
+                    </span>
+                  </label>
+                </div>
+                <div class="options-matirial flex flex-wrap gap-[10px] items-start mb-[20px]">
+                  <label class="min-w-[150px]">
+                    <input type="radio" name="matirial" checked class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] text-center py-1 leading-5 px-5 peer-checked:bg-transparent peer-checked:border peer-checked:font-bold peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>Deluxe 100% Cotton</span>
+                    </span>
+                  </label>
+                  <label class="min-w-[150px]">
+                    <input type="radio" name="matirial" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media rounded-[5px] text-center py-1 leading-5 px-3 peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>Tri-blend</span>
+                    </span>
+                  </label>
+                </div>
+
+                <div class="options-size flex flex-wrap gap-[10px] items-center mb-5">
+                  <label class="flex-auto max-w-[40px] w-full">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:font-bold peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>XS</span>
+                    </span>
+                  </label>
+                  <label class="flex-auto max-w-[40px] w-full">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>S</span>
+                    </span>
+                  </label>
+                  <label class="flex-auto max-w-[40px] w-full">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>M</span>
+                    </span>
+                  </label>
+                  <label class="flex-auto max-w-[40px] w-full">
+                    <input type="radio" name="size" checked class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>L</span>
+                    </span>
+                  </label>
+                  <label class="flex-auto max-w-[40px] w-full">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>XL</span>
+                    </span>
+                  </label>
+                  <label class="flex-auto max-w-[40px] w-full">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>2XL</span>
+                    </span>
+                  </label>
+                  <label class="flex-auto max-w-[40px] w-full">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="style-swatch relative block border border-transparent bg-media text-center h-[40px] leading-[40px] peer-checked:bg-transparent peer-checked:border-2 peer-checked:border-black peer-checked:font-bold peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-accent-2 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                      <span>3XL</span>
+                    </span>
+                  </label>
+                  <button class="font-bold text-accent-2 underline underline-offset-4 ms-3">
+                    View Size Chart
                   </button>
                 </div>
-                <div
-                  class="product-short-desc flex items-center space-x-3 mb-7">
-                  <img src="images/badge-icon.svg" class="w-[35px]" />
-                  <div class="text-xs leading-5 space-y-1">
-                    <div class="flex text-xs items-center">
-                      <img
-                        src="images/paypal-icon.svg"
-                        alt=""
-                        class="w-5 mr-1" />
-                      <span>Buy now pay later. </span>
-                      <a href="#" class="underline underline-offset-2 ms-1"
-                        >Learn more.</a
-                      >
-                    </div>
-                    <p class="mb-0">
-                      <strong>Bulk order inquires:</strong>
-                      bulkorders@1stplacespiritwear.com
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="product-share flex justify-end space-x-4 mb-10 pt-3 border-t border-black">
-                  <p class="text-xs"><strong>Share</strong></p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="27.66"
-                    height="23.533"
-                    viewBox="0 0 27.66 23.533">
-                    <g
-                      id="share_1_"
-                      data-name="share (1)"
-                      transform="translate(-0.716 -0.5)">
-                      <path
-                        id="Path_531"
-                        data-name="Path 531"
-                        d="M197.418.684a.632.632,0,0,0-1.078.448V4.5a8.633,8.633,0,0,0-5.385,1.786,9.583,9.583,0,0,0-3.326,5.57,9.814,9.814,0,0,0-.113,3.21v0c0,.009,0,.019,0,.028l.134.772a.632.632,0,0,0,1.165.217l.4-.671A8.879,8.879,0,0,1,193.8,11.37,6.639,6.639,0,0,1,196.34,11v3.493a.632.632,0,0,0,1.08.446l6.68-6.713a.632.632,0,0,0,0-.894Zm.186,12.276v-2.53a.632.632,0,0,0-.532-.624,7.733,7.733,0,0,0-3.687.372A9.657,9.657,0,0,0,188.7,13.91a9,9,0,0,1,.171-1.8,8.222,8.222,0,0,1,2.9-4.849c.014-.011.026-.023.039-.035.044-.041,1.65-1.49,5.158-1.464h0a.633.633,0,0,0,.633-.632V2.652l5.154,5.128Zm0,0"
-                        transform="translate(-175.908 0)" />
-                      <path
-                        id="Path_532"
-                        data-name="Path 532"
-                        d="M23.415,72.812a.574.574,0,0,0-.561.586v2.479a1.724,1.724,0,0,1-1.683,1.759H.805A1.724,1.724,0,0,1-.878,75.878V61.905A1.724,1.724,0,0,1,.805,60.146h5.88a.587.587,0,0,0,0-1.173H.805A2.874,2.874,0,0,0-2,61.905V75.878A2.874,2.874,0,0,0,.805,78.81H21.171a2.874,2.874,0,0,0,2.805-2.932V73.4A.574.574,0,0,0,23.415,72.812Zm0,0"
-                        transform="translate(2.716 -54.777)" />
-                    </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Product Ends -->
-        <div class="product--tabs bg-media py-5">
-          <div class="container-narrow">
-            <nav
-              class="relative tabs-nav text-sm before:content-['_'] before:w-full before:h-[1px] before:absolute before:bg-black before:bottom-1">
-              <ul
-                class="text flex flex-nowrap lg:justify-around space-x-10 p-0 m-0 no-scrollbar overflow-auto pb-1">
-                <li class="inline-flex shrink-0">
-                  <a
-                    href="#desc"
-                    class="relative block font-bold py-3 px-3 before:content-['_'] before:h-[8px] before:w-[100%] before:absolute before:-bottom-[4px] before:left-0 before:bg-black"
-                    >Description</a
-                  >
-                </li>
-                <li class="inline-flex shrink-0">
-                  <a
-                    href="#additional"
-                    class="relative block py-3 px-3 hover:before:content-['_'] hover:before:h-[8px] hover:before:w-[100%] hover:before:absolute hover:before:-bottom-[4px] hover:before:left-0 hover:before:bg-black"
-                    >Additional Information</a
-                  >
-                </li>
-                <li class="inline-flex shrink-0">
-                  <a
-                    href="#shipping"
-                    class="relative block py-3 px-3 hover:before:content-['_'] hover:before:h-[8px] hover:before:w-[100%] hover:before:absolute hover:before:-bottom-[4px] hover:before:left-0 hover:before:bg-black"
-                    >Shipping & Returns</a
-                  >
-                </li>
-                <li class="inline-flex shrink-0">
-                  <a
-                    href="#reviews"
-                    class="relative block py-3 px-3 hover:before:content-['_'] hover:before:h-[8px] hover:before:w-[100%] hover:before:absolute hover:before:-bottom-[4px] hover:before:left-0 hover:before:bg-black"
-                    >Customer Reviews <span>(29)</span></a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <div class="tabs-content text-sm leading-6">
-              <div id="desc" class="tab-panel py-[40px] md:px-[70px]">
-                <div class="flex md:items-center space-x-5">
-                  <div class="w-[30%]">
-                    <div class="image-contain">
-                      <img src="images/product.png" alt="" class="w-full" />
-                    </div>
-                  </div>
-                  <div class="w-[70%]">
-                    <p><strong>Adult Bella+Canvas Short Sleeve Tee</strong></p>
-                    <p>
-                      This updated essential fits like a well-loved favorite,
-                      featuring a crew neck and short sleeves. Every order is
-                      custom printed and personalized for you!
-                    </p>
-                    <p>
-                      4.2 oz; 100% Cotton (Grey - 90% Cotton, 10% Polyester)
-                      <br />Pre-shrunk <br />Unisex sizing <br />Side-seamed;
-                      Shoulder taping <br />Tear-away label <br />Sustainably
-                      produced
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Product Tabs End -->
-        <div class="shop-this-design py-[70px]">
-          <div class="container-narrow">
-            <div class="section--title text-center mb-10">
-              <h2 class="text-md md:text-lg font-bold">
-                SHOP THIS DESIGN <span class="font-normal">(59 items)</span>
-              </h2>
-            </div>
-            <!-- Section Title Ends -->
 
-            <!-- Slider -->
-            <div
-              class="slider-component relative"
-              data-slides-per-view="4"
-              data-slides-per-view-mb="1.8">
-              <div class="swiper">
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide">
-                    <div class="product-card group">
-                      <div
-                        class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                        <div
-                          class="image-contain bg-media rounded-[10px] px-3 py-10">
-                          <img
-                            src="images/product2.png"
-                            alt=""
-                            class="w-full" />
-                        </div>
-                        <div class="card-button">
-                          <button
-                            class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24.327"
-                              height="19.898"
-                              viewBox="0 0 24.327 19.898">
-                              <g
-                                id="Group_279"
-                                data-name="Group 279"
-                                transform="translate(0.192 0.192)">
-                                <g
-                                  id="Group_280"
-                                  data-name="Group 280"
-                                  transform="translate(0 0)">
-                                  <path
-                                    id="Path_142"
-                                    data-name="Path 142"
-                                    d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
-                                    transform="translate(-4.219 -3.784)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_143"
-                                    data-name="Path 143"
-                                    d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
-                                    transform="translate(-6.488 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_144"
-                                    data-name="Path 144"
-                                    d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
-                                    transform="translate(-10.568 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_145"
-                                    data-name="Path 145"
-                                    d="M6.99,6.289,4.825.5H.5"
-                                    transform="translate(-0.191 -0.191)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                </g>
-                              </g>
-                            </svg>
-                            <span>ADD TO CART</span>
-                          </button>
-                        </div>
-                      </div>
-                      <h4 class="text-sm leading-6 text-center">
-                        Adult Champion Reverse Weave Pullover Hoodie Sweatshirt
-                      </h4>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="product-card group">
-                      <div
-                        class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                        <div
-                          class="image-contain bg-media rounded-[10px] px-3 py-10">
-                          <img
-                            src="images/product3.png"
-                            alt=""
-                            class="w-full" />
-                        </div>
-                        <div class="card-button">
-                          <button
-                            class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24.327"
-                              height="19.898"
-                              viewBox="0 0 24.327 19.898">
-                              <g
-                                id="Group_279"
-                                data-name="Group 279"
-                                transform="translate(0.192 0.192)">
-                                <g
-                                  id="Group_280"
-                                  data-name="Group 280"
-                                  transform="translate(0 0)">
-                                  <path
-                                    id="Path_142"
-                                    data-name="Path 142"
-                                    d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
-                                    transform="translate(-4.219 -3.784)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_143"
-                                    data-name="Path 143"
-                                    d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
-                                    transform="translate(-6.488 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_144"
-                                    data-name="Path 144"
-                                    d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
-                                    transform="translate(-10.568 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_145"
-                                    data-name="Path 145"
-                                    d="M6.99,6.289,4.825.5H.5"
-                                    transform="translate(-0.191 -0.191)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                </g>
-                              </g>
-                            </svg>
-                            <span>ADD TO CART</span>
-                          </button>
-                        </div>
-                      </div>
-                      <h4 class="text-sm leading-6 text-center">
-                        Adult Badger 7-inch Mesh Athletic Shorts
-                      </h4>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="product-card group">
-                      <div
-                        class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                        <div
-                          class="image-contain bg-media rounded-[10px] px-3 py-10">
-                          <img
-                            src="images/product4.png"
-                            alt=""
-                            class="w-full" />
-                        </div>
-                        <div class="card-button">
-                          <button
-                            class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24.327"
-                              height="19.898"
-                              viewBox="0 0 24.327 19.898">
-                              <g
-                                id="Group_279"
-                                data-name="Group 279"
-                                transform="translate(0.192 0.192)">
-                                <g
-                                  id="Group_280"
-                                  data-name="Group 280"
-                                  transform="translate(0 0)">
-                                  <path
-                                    id="Path_142"
-                                    data-name="Path 142"
-                                    d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
-                                    transform="translate(-4.219 -3.784)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_143"
-                                    data-name="Path 143"
-                                    d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
-                                    transform="translate(-6.488 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_144"
-                                    data-name="Path 144"
-                                    d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
-                                    transform="translate(-10.568 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_145"
-                                    data-name="Path 145"
-                                    d="M6.99,6.289,4.825.5H.5"
-                                    transform="translate(-0.191 -0.191)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                </g>
-                              </g>
-                            </svg>
-                            <span>ADD TO CART</span>
-                          </button>
-                        </div>
-                      </div>
-                      <h4 class="text-sm leading-6 text-center">
-                        KC Caps Adult Low Profile Hat
-                      </h4>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="product-card group">
-                      <div
-                        class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                        <div
-                          class="image-contain bg-media rounded-[10px] px-3 py-10">
-                          <img
-                            src="images/product5.png"
-                            alt=""
-                            class="w-full" />
-                        </div>
-                        <div class="card-button">
-                          <button
-                            class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24.327"
-                              height="19.898"
-                              viewBox="0 0 24.327 19.898">
-                              <g
-                                id="Group_279"
-                                data-name="Group 279"
-                                transform="translate(0.192 0.192)">
-                                <g
-                                  id="Group_280"
-                                  data-name="Group 280"
-                                  transform="translate(0 0)">
-                                  <path
-                                    id="Path_142"
-                                    data-name="Path 142"
-                                    d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
-                                    transform="translate(-4.219 -3.784)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_143"
-                                    data-name="Path 143"
-                                    d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
-                                    transform="translate(-6.488 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_144"
-                                    data-name="Path 144"
-                                    d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
-                                    transform="translate(-10.568 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_145"
-                                    data-name="Path 145"
-                                    d="M6.99,6.289,4.825.5H.5"
-                                    transform="translate(-0.191 -0.191)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                </g>
-                              </g>
-                            </svg>
-                            <span>ADD TO CART</span>
-                          </button>
-                        </div>
-                      </div>
-                      <h4 class="text-sm leading-6 text-center">
-                        Boat Tote Bag
-                      </h4>
-                    </div>
-                  </div>
-
-                  <div class="swiper-slide">
-                    <div class="product-card group">
-                      <div
-                        class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                        <div
-                          class="image-contain bg-media rounded-[10px] px-3 py-10">
-                          <img src="images/product.png" alt="" class="w-full" />
-                        </div>
-                        <div class="card-button">
-                          <button
-                            class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24.327"
-                              height="19.898"
-                              viewBox="0 0 24.327 19.898">
-                              <g
-                                id="Group_279"
-                                data-name="Group 279"
-                                transform="translate(0.192 0.192)">
-                                <g
-                                  id="Group_280"
-                                  data-name="Group 280"
-                                  transform="translate(0 0)">
-                                  <path
-                                    id="Path_142"
-                                    data-name="Path 142"
-                                    d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
-                                    transform="translate(-4.219 -3.784)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_143"
-                                    data-name="Path 143"
-                                    d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
-                                    transform="translate(-6.488 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_144"
-                                    data-name="Path 144"
-                                    d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
-                                    transform="translate(-10.568 -10.139)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                  <path
-                                    id="Path_145"
-                                    data-name="Path 145"
-                                    d="M6.99,6.289,4.825.5H.5"
-                                    transform="translate(-0.191 -0.191)"
-                                    fill="none"
-                                    stroke="#fff"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="1" />
-                                </g>
-                              </g>
-                            </svg>
-                            <span>ADD TO CART</span>
-                          </button>
-                        </div>
-                      </div>
-                      <h4 class="text-sm leading-6 text-center">
-                        Adult Bella+Canvas Short Sleeve Tee
-                      </h4>
-                    </div>
-                  </div>
-                </div>
+                <button data-modal-target="personalize"
+                  class="inline-block md:hidden text-center font-bold w-full border text-accent-2 border-accent-2 rounded-[10px] h-[48px] text-xs mb-5">
+                  Personalize Back
+                </button>
               </div>
-
-              <!-- If we need navigation buttons -->
-              <div
-                class="swiper-arrow-prev hidden md:inline-block absolute top-[40%] -left-[80px] z-10 w-[50px] h-[50px] text-center rounded-full py-[10px] hover:bg-accent">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18.151"
-                  height="29.079"
-                  viewBox="0 0 18.151 29.079"
-                  class="m-auto">
-                  <g
-                    id="Group_2"
-                    data-name="Group 2"
-                    transform="translate(2.121 2.121)">
-                    <line
-                      id="Line_2"
-                      data-name="Line 2"
-                      x2="19.669"
-                      transform="translate(13.908 0) rotate(135)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-width="6" />
-                    <line
-                      id="Line_3"
-                      data-name="Line 3"
-                      x2="19.669"
-                      transform="translate(13.908 24.836) rotate(-135)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-width="6" />
-                  </g>
-                </svg>
-              </div>
-
-              <div
-                class="swiper-arrow-next hidden md:inline-block absolute top-[40%] -right-[80px] z-10 w-[50px] h-[50px] text-center rounded-full py-[10px] hover:bg-accent">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18.151"
-                  height="29.079"
-                  viewBox="0 0 18.151 29.079"
-                  class="m-auto">
-                  <g
-                    id="Group_3"
-                    data-name="Group 3"
-                    transform="translate(2.121 2.121)">
-                    <line
-                      id="Line_2"
-                      data-name="Line 2"
-                      x2="19.669"
-                      transform="translate(0 0) rotate(45)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-width="6" />
-                    <line
-                      id="Line_3"
-                      data-name="Line 3"
-                      x2="19.669"
-                      transform="translate(0 24.836) rotate(-45)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-width="6" />
-                  </g>
-                </svg>
-              </div>
-            </div>
-            <!-- Slider Ends -->
-            <div class="text-center mt-10 hidden md:block">
-              <a href="#" class="btn btn-yellow"
-                >SHOP ALL PRODUCTS WITH THIS DESIGN</a
-              >
-            </div>
-          </div>
-        </div>
-        <!-- Shop This Design End
-                 Newsletter Start -->
-        <div
-          class="newsletters relative bg-cover bg-center"
-          style="background-image: url(images/newsletter-bg.jpg)">
-          <div
-            class="overlay absolute top-0 left-0 w-full h-full flex bg-accent-3 mix-blend-multiply opacity-80"></div>
-          <div class="container-narrow">
-            <div
-              class="block md:flex py-12 relative items-center justify-between">
-              <div class="newsletter-content md:w-[55%]">
-                <h2 class="h2 md:h1 text-white mb-4">
-                  <span class="font-normal">GET AN</span> INSTANT 10% OFF
-                </h2>
-                <p class="text-[25px] leading-7 text-white lg:pe-20">
-                  Sign up for the 1st Place Spiritwear Newsletter and get
-                  <strong>10% off</strong> your first order! Plus get alerts on
-                  sales, news styles and more!
+              <!-- Product Options End -->
+              <div class="product-note text-xs mb-5">
+                <p>
+                  <strong>Note:</strong> This shirt is Athletic Fit, order 1
+                  size up for traditional/looser fit.
                 </p>
               </div>
-              <div
-                class="newsletter-form md:max-w-[450px] flex justify-center md:justify-end">
-                <form class="flex mt-5 md:mt-0">
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Enter Email Address"
-                    class="placeholder:text-[#797979] focus:outline-0 px-5 w-full grow" />
-                  <button class="btn btn-yellow rounded-none">Submit</button>
-                </form>
+              <div class="product-button mb-[30px]">
+                <button data-modal-target="confirm_personalize"
+                  class="text-sm md:text-[24px] font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-accent-2 h-16 px-5 bg-heading text-white py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full">
+                  <span>Add to Cart</span>
+                </button>
               </div>
-            </div>
-          </div>
-        </div>
-        <!-- Newsletter Ends 
-                 Shop By Design Start -->
-
-        <div class="shop-by-design py-[70px]">
-          <div class="container-narrow">
-            <div class="section--title text-center mb-10">
-              <h2 class="text-lg font-bold">SHOP BY DESIGN</h2>
-            </div>
-            <!-- Section Title Ends -->
-
-            <!-- Slider -->
-            <div
-              class="slider-component relative"
-              data-slides-per-view="4"
-              data-slides-per-view-mb="1.8">
-              <div class="swiper">
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide">
-                    <div class="design-card">
-                      <a href="#" class="block">
-                        <div
-                          class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                          <div class="image-contain">
-                            <img
-                              src="images/Design1.jpg"
-                              alt=""
-                              class="w-full" />
-                          </div>
-                        </div>
-                        <h4 class="text-sm leading-6 text-center">
-                          <strong>Medina Bees Angle Logo</strong>
-                        </h4>
-                      </a>
-                    </div>
-                    <!-- Design Card -->
+              <div class="product-short-desc flex items-center space-x-3 mb-7">
+                <img src="images/badge-icon.svg" class="w-[35px]" />
+                <div class="text-xs leading-5 space-y-1">
+                  <div class="flex text-xs items-center">
+                    <img src="images/paypal-icon.svg" alt="" class="w-5 mr-1" />
+                    <span>Buy now pay later. </span>
+                    <a href="#" class="underline underline-offset-2 ms-1">Learn more.</a>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="design-card">
-                      <a href="#" class="block">
-                        <div
-                          class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                          <div class="image-contain">
-                            <img
-                              src="images/Design2.jpg"
-                              alt=""
-                              class="w-full" />
-                          </div>
-                        </div>
-                        <h4 class="text-sm leading-6 text-center">
-                          <strong>Medina Bees Stacked Logo</strong>
-                        </h4>
-                      </a>
-                    </div>
-                    <!-- Design Card -->
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="design-card">
-                      <a href="#" class="block">
-                        <div
-                          class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                          <div class="image-contain">
-                            <img
-                              src="images/Design3.jpg"
-                              alt=""
-                              class="w-full" />
-                          </div>
-                        </div>
-                        <h4 class="text-sm leading-6 text-center">
-                          <strong>Medina Bees Texture Logo</strong>
-                        </h4>
-                      </a>
-                    </div>
-                    <!-- Design Card -->
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="design-card">
-                      <a href="#" class="block">
-                        <div
-                          class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                          <div class="image-contain">
-                            <img
-                              src="images/Design4.jpg"
-                              alt=""
-                              class="w-full" />
-                          </div>
-                        </div>
-                        <h4 class="text-sm leading-6 text-center">
-                          <strong>Medina Bees Angle Logo</strong>
-                        </h4>
-                      </a>
-                    </div>
-                    <!-- Design Card -->
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="design-card">
-                      <a href="#" class="block">
-                        <div
-                          class="card-media relative overflow-hidden rounded-[10px] mb-6">
-                          <div class="image-contain">
-                            <img
-                              src="images/Design1.jpg"
-                              alt=""
-                              class="w-full" />
-                          </div>
-                        </div>
-                        <h4 class="text-sm leading-6 text-center">
-                          <strong>Medina Bees Angle Logo</strong>
-                        </h4>
-                      </a>
-                    </div>
-                    <!-- Design Card -->
-                  </div>
+                  <p class="mb-0">
+                    <strong>Bulk order inquires:</strong>
+                    bulkorders@1stplacespiritwear.com
+                  </p>
                 </div>
               </div>
-
-              <!-- If we need navigation buttons -->
-              <div
-                class="swiper-arrow-prev hidden md:inline-block absolute top-[40%] -left-[80px] z-10 w-[50px] h-[50px] text-center rounded-full py-[10px] hover:bg-accent">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18.151"
-                  height="29.079"
-                  viewBox="0 0 18.151 29.079"
-                  class="m-auto">
-                  <g
-                    id="Group_2"
-                    data-name="Group 2"
-                    transform="translate(2.121 2.121)">
-                    <line
-                      id="Line_2"
-                      data-name="Line 2"
-                      x2="19.669"
-                      transform="translate(13.908 0) rotate(135)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-width="6" />
-                    <line
-                      id="Line_3"
-                      data-name="Line 3"
-                      x2="19.669"
-                      transform="translate(13.908 24.836) rotate(-135)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-width="6" />
-                  </g>
-                </svg>
-              </div>
-
-              <div
-                class="swiper-arrow-next hidden md:inline-block absolute top-[40%] -right-[80px] z-10 w-[50px] h-[50px] text-center rounded-full py-[10px] hover:bg-accent">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18.151"
-                  height="29.079"
-                  viewBox="0 0 18.151 29.079"
-                  class="m-auto">
-                  <g
-                    id="Group_3"
-                    data-name="Group 3"
-                    transform="translate(2.121 2.121)">
-                    <line
-                      id="Line_2"
-                      data-name="Line 2"
-                      x2="19.669"
-                      transform="translate(0 0) rotate(45)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-width="6" />
-                    <line
-                      id="Line_3"
-                      data-name="Line 3"
-                      x2="19.669"
-                      transform="translate(0 24.836) rotate(-45)"
-                      fill="none"
-                      stroke="#000"
-                      stroke-width="6" />
+              <div class="product-share flex justify-end space-x-4 mb-10 pt-3 border-t border-black">
+                <p class="text-xs"><strong>Share</strong></p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="27.66" height="23.533" viewBox="0 0 27.66 23.533">
+                  <g id="share_1_" data-name="share (1)" transform="translate(-0.716 -0.5)">
+                    <path id="Path_531" data-name="Path 531"
+                      d="M197.418.684a.632.632,0,0,0-1.078.448V4.5a8.633,8.633,0,0,0-5.385,1.786,9.583,9.583,0,0,0-3.326,5.57,9.814,9.814,0,0,0-.113,3.21v0c0,.009,0,.019,0,.028l.134.772a.632.632,0,0,0,1.165.217l.4-.671A8.879,8.879,0,0,1,193.8,11.37,6.639,6.639,0,0,1,196.34,11v3.493a.632.632,0,0,0,1.08.446l6.68-6.713a.632.632,0,0,0,0-.894Zm.186,12.276v-2.53a.632.632,0,0,0-.532-.624,7.733,7.733,0,0,0-3.687.372A9.657,9.657,0,0,0,188.7,13.91a9,9,0,0,1,.171-1.8,8.222,8.222,0,0,1,2.9-4.849c.014-.011.026-.023.039-.035.044-.041,1.65-1.49,5.158-1.464h0a.633.633,0,0,0,.633-.632V2.652l5.154,5.128Zm0,0"
+                      transform="translate(-175.908 0)" />
+                    <path id="Path_532" data-name="Path 532"
+                      d="M23.415,72.812a.574.574,0,0,0-.561.586v2.479a1.724,1.724,0,0,1-1.683,1.759H.805A1.724,1.724,0,0,1-.878,75.878V61.905A1.724,1.724,0,0,1,.805,60.146h5.88a.587.587,0,0,0,0-1.173H.805A2.874,2.874,0,0,0-2,61.905V75.878A2.874,2.874,0,0,0,.805,78.81H21.171a2.874,2.874,0,0,0,2.805-2.932V73.4A.574.574,0,0,0,23.415,72.812Zm0,0"
+                      transform="translate(2.716 -54.777)" />
                   </g>
                 </svg>
               </div>
             </div>
-            <!-- Slider Ends -->
-            <div class="text-center mt-10">
-              <a href="#" class="btn btn-yellow">SHOP ALL DESIGNS</a>
-            </div>
           </div>
         </div>
-        <!-- Shop By Design End
-                 CTA Start -->
-
-        <div
-          class="relative bg-cover bg-center"
-          style="background-image: url(images/cta-bg.jpg)">
-          <div
-            class="overlay absolute top-0 left-0 w-full h-full flex bg-accent mix-blend-multiply opacity-80"></div>
-          <div class="container-narrow">
-            <div
-              class="block md:flex py-12 relative items-center justify-between">
-              <div class="md:w-[60%]">
-                <h2
-                  class="text-lg md:text-6xl uppercase md:h1 font-black text-[#1A2F26] mb-4">
-                  <span class="font-normal">Medina Bees</span> MVP Rewards
-                </h2>
-                <p class="text-[25px] leading-7 text-[#1A2F26] lg:pe-20">
-                  Earn <strong>MVP Points</strong> with every purchase! Redeem
-                  your MVP Points towards big savings and free swag!
-                </p>
-              </div>
-              <div
-                class="md:max-w-[450px] flex justify-center md:justify-end mt-5 md:mt-0">
-                <a
-                  href="#"
-                  class="text-2xl font-bold leading-4 inline-block items-center cursor-pointer bg-accent-3 text-white transition ease-in-out duration-300 text-center justify-center border-0 px-[36px] py-[18px]"
-                  >Learn More</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- CTA Ends -->
-      </main>
-      <footer class="bg-black py-5">
+      </div>
+      <!-- Product Ends -->
+      <div class="product--tabs bg-media py-5">
         <div class="container-narrow">
-          <div class="block md:flex md:justify-between mt-16 md:mt-10 lg:mt-24">
-            <div class="md:w-1/3">
-              <div class="image-contain">
-                <img src="images/footer-logo.svg" class="max-w-[260px]" />
+          <nav
+            class="relative tabs-nav text-sm before:content-['_'] before:w-full before:h-[1px] before:absolute before:bg-black before:bottom-1">
+            <ul class="text flex flex-nowrap lg:justify-around space-x-10 p-0 m-0 no-scrollbar overflow-auto pb-1">
+              <li class="inline-flex shrink-0">
+                <a href="#desc"
+                  class="relative block font-bold py-3 px-3 before:content-['_'] before:h-[8px] before:w-[100%] before:absolute before:-bottom-[4px] before:left-0 before:bg-black">Description</a>
+              </li>
+              <li class="inline-flex shrink-0">
+                <a href="#additional"
+                  class="relative block py-3 px-3 hover:before:content-['_'] hover:before:h-[8px] hover:before:w-[100%] hover:before:absolute hover:before:-bottom-[4px] hover:before:left-0 hover:before:bg-black">Additional
+                  Information</a>
+              </li>
+              <li class="inline-flex shrink-0">
+                <a href="#shipping"
+                  class="relative block py-3 px-3 hover:before:content-['_'] hover:before:h-[8px] hover:before:w-[100%] hover:before:absolute hover:before:-bottom-[4px] hover:before:left-0 hover:before:bg-black">Shipping
+                  & Returns</a>
+              </li>
+              <li class="inline-flex shrink-0">
+                <a href="#reviews"
+                  class="relative block py-3 px-3 hover:before:content-['_'] hover:before:h-[8px] hover:before:w-[100%] hover:before:absolute hover:before:-bottom-[4px] hover:before:left-0 hover:before:bg-black">Customer
+                  Reviews <span>(29)</span></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="tabs-content text-sm leading-6">
+            <div id="desc" class="tab-panel py-[40px] md:px-[70px]">
+              <div class="flex md:items-center space-x-5">
+                <div class="w-[30%]">
+                  <div class="image-contain">
+                    <img src="images/product.png" alt="" class="w-full" />
+                  </div>
+                </div>
+                <div class="w-[70%]">
+                  <p><strong>Adult Bella+Canvas Short Sleeve Tee</strong></p>
+                  <p>
+                    This updated essential fits like a well-loved favorite,
+                    featuring a crew neck and short sleeves. Every order is
+                    custom printed and personalized for you!
+                  </p>
+                  <p>
+                    4.2 oz; 100% Cotton (Grey - 90% Cotton, 10% Polyester)
+                    <br />Pre-shrunk <br />Unisex sizing <br />Side-seamed;
+                    Shoulder taping <br />Tear-away label <br />Sustainably
+                    produced
+                  </p>
+                </div>
               </div>
-              <p class="text-white leading-7 mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Product Tabs End -->
+      <div class="shop-this-design py-[70px]">
+        <div class="container-narrow">
+          <div class="section--title text-center mb-10">
+            <h2 class="text-md md:text-lg font-bold">
+              SHOP THIS DESIGN <span class="font-normal">(59 items)</span>
+            </h2>
+          </div>
+          <!-- Section Title Ends -->
+
+          <!-- Slider -->
+          <div class="slider-component relative" data-slides-per-view="4" data-slides-per-view-mb="1.8">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="product-card group">
+                    <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                      <div class="image-contain bg-media rounded-[10px] px-3 py-10">
+                        <img src="images/product2.png" alt="" class="w-full" />
+                      </div>
+                      <div class="card-button">
+                        <button
+                          class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24.327" height="19.898"
+                            viewBox="0 0 24.327 19.898">
+                            <g id="Group_279" data-name="Group 279" transform="translate(0.192 0.192)">
+                              <g id="Group_280" data-name="Group 280" transform="translate(0 0)">
+                                <path id="Path_142" data-name="Path 142"
+                                  d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
+                                  transform="translate(-4.219 -3.784)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_143" data-name="Path 143"
+                                  d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
+                                  transform="translate(-6.488 -10.139)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_144" data-name="Path 144"
+                                  d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
+                                  transform="translate(-10.568 -10.139)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_145" data-name="Path 145" d="M6.99,6.289,4.825.5H.5"
+                                  transform="translate(-0.191 -0.191)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                              </g>
+                            </g>
+                          </svg>
+                          <span>ADD TO CART</span>
+                        </button>
+                      </div>
+                    </div>
+                    <h4 class="text-sm leading-6 text-center">
+                      Adult Champion Reverse Weave Pullover Hoodie Sweatshirt
+                    </h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product-card group">
+                    <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                      <div class="image-contain bg-media rounded-[10px] px-3 py-10">
+                        <img src="images/product3.png" alt="" class="w-full" />
+                      </div>
+                      <div class="card-button">
+                        <button
+                          class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24.327" height="19.898"
+                            viewBox="0 0 24.327 19.898">
+                            <g id="Group_279" data-name="Group 279" transform="translate(0.192 0.192)">
+                              <g id="Group_280" data-name="Group 280" transform="translate(0 0)">
+                                <path id="Path_142" data-name="Path 142"
+                                  d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
+                                  transform="translate(-4.219 -3.784)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_143" data-name="Path 143"
+                                  d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
+                                  transform="translate(-6.488 -10.139)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_144" data-name="Path 144"
+                                  d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
+                                  transform="translate(-10.568 -10.139)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_145" data-name="Path 145" d="M6.99,6.289,4.825.5H.5"
+                                  transform="translate(-0.191 -0.191)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                              </g>
+                            </g>
+                          </svg>
+                          <span>ADD TO CART</span>
+                        </button>
+                      </div>
+                    </div>
+                    <h4 class="text-sm leading-6 text-center">
+                      Adult Badger 7-inch Mesh Athletic Shorts
+                    </h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product-card group">
+                    <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                      <div class="image-contain bg-media rounded-[10px] px-3 py-10">
+                        <img src="images/product4.png" alt="" class="w-full" />
+                      </div>
+                      <div class="card-button">
+                        <button
+                          class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24.327" height="19.898"
+                            viewBox="0 0 24.327 19.898">
+                            <g id="Group_279" data-name="Group 279" transform="translate(0.192 0.192)">
+                              <g id="Group_280" data-name="Group 280" transform="translate(0 0)">
+                                <path id="Path_142" data-name="Path 142"
+                                  d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
+                                  transform="translate(-4.219 -3.784)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_143" data-name="Path 143"
+                                  d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
+                                  transform="translate(-6.488 -10.139)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_144" data-name="Path 144"
+                                  d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
+                                  transform="translate(-10.568 -10.139)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_145" data-name="Path 145" d="M6.99,6.289,4.825.5H.5"
+                                  transform="translate(-0.191 -0.191)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                              </g>
+                            </g>
+                          </svg>
+                          <span>ADD TO CART</span>
+                        </button>
+                      </div>
+                    </div>
+                    <h4 class="text-sm leading-6 text-center">
+                      KC Caps Adult Low Profile Hat
+                    </h4>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product-card group">
+                    <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                      <div class="image-contain bg-media rounded-[10px] px-3 py-10">
+                        <img src="images/product5.png" alt="" class="w-full" />
+                      </div>
+                      <div class="card-button">
+                        <button
+                          class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24.327" height="19.898"
+                            viewBox="0 0 24.327 19.898">
+                            <g id="Group_279" data-name="Group 279" transform="translate(0.192 0.192)">
+                              <g id="Group_280" data-name="Group 280" transform="translate(0 0)">
+                                <path id="Path_142" data-name="Path 142"
+                                  d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
+                                  transform="translate(-4.219 -3.784)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_143" data-name="Path 143"
+                                  d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
+                                  transform="translate(-6.488 -10.139)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_144" data-name="Path 144"
+                                  d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
+                                  transform="translate(-10.568 -10.139)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_145" data-name="Path 145" d="M6.99,6.289,4.825.5H.5"
+                                  transform="translate(-0.191 -0.191)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                              </g>
+                            </g>
+                          </svg>
+                          <span>ADD TO CART</span>
+                        </button>
+                      </div>
+                    </div>
+                    <h4 class="text-sm leading-6 text-center">
+                      Boat Tote Bag
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="product-card group">
+                    <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                      <div class="image-contain bg-media rounded-[10px] px-3 py-10">
+                        <img src="images/product.png" alt="" class="w-full" />
+                      </div>
+                      <div class="card-button">
+                        <button
+                          class="flex bg-black h-[50px] leading-[50px] w-full justify-center text-white text-[18px] items-center text-center space-x-2 absolute -bottom-[70px] left-0 transition-all ease-in-out hover:bg-accent-2 group-hover:bottom-[0px]">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24.327" height="19.898"
+                            viewBox="0 0 24.327 19.898">
+                            <g id="Group_279" data-name="Group 279" transform="translate(0.192 0.192)">
+                              <g id="Group_280" data-name="Group 280" transform="translate(0 0)">
+                                <path id="Path_142" data-name="Path 142"
+                                  d="M11.018,9.882l2.871,7.65H24.856l2.977-7.343c.062-.154-.1-.306-.316-.306Z"
+                                  transform="translate(-4.219 -3.784)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_143" data-name="Path 143"
+                                  d="M19.813,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,19.813,27.91Z"
+                                  transform="translate(-6.488 -10.139)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_144" data-name="Path 144"
+                                  d="M30.468,27.91a1.436,1.436,0,1,1-1.435-1.435A1.435,1.435,0,0,1,30.468,27.91Z"
+                                  transform="translate(-10.568 -10.139)" fill="none" stroke="#fff"
+                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                                <path id="Path_145" data-name="Path 145" d="M6.99,6.289,4.825.5H.5"
+                                  transform="translate(-0.191 -0.191)" fill="none" stroke="#fff" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="1" />
+                              </g>
+                            </g>
+                          </svg>
+                          <span>ADD TO CART</span>
+                        </button>
+                      </div>
+                    </div>
+                    <h4 class="text-sm leading-6 text-center">
+                      Adult Bella+Canvas Short Sleeve Tee
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div
+              class="swiper-arrow-prev hidden md:inline-block absolute top-[40%] -left-[80px] z-10 w-[50px] h-[50px] text-center rounded-full py-[10px] hover:bg-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18.151" height="29.079" viewBox="0 0 18.151 29.079"
+                class="m-auto">
+                <g id="Group_2" data-name="Group 2" transform="translate(2.121 2.121)">
+                  <line id="Line_2" data-name="Line 2" x2="19.669" transform="translate(13.908 0) rotate(135)"
+                    fill="none" stroke="#000" stroke-width="6" />
+                  <line id="Line_3" data-name="Line 3" x2="19.669" transform="translate(13.908 24.836) rotate(-135)"
+                    fill="none" stroke="#000" stroke-width="6" />
+                </g>
+              </svg>
+            </div>
+
+            <div
+              class="swiper-arrow-next hidden md:inline-block absolute top-[40%] -right-[80px] z-10 w-[50px] h-[50px] text-center rounded-full py-[10px] hover:bg-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18.151" height="29.079" viewBox="0 0 18.151 29.079"
+                class="m-auto">
+                <g id="Group_3" data-name="Group 3" transform="translate(2.121 2.121)">
+                  <line id="Line_2" data-name="Line 2" x2="19.669" transform="translate(0 0) rotate(45)" fill="none"
+                    stroke="#000" stroke-width="6" />
+                  <line id="Line_3" data-name="Line 3" x2="19.669" transform="translate(0 24.836) rotate(-45)"
+                    fill="none" stroke="#000" stroke-width="6" />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <!-- Slider Ends -->
+          <div class="text-center mt-10 hidden md:block">
+            <a href="#" class="btn btn-yellow">SHOP ALL PRODUCTS WITH THIS DESIGN</a>
+          </div>
+        </div>
+      </div>
+      <!-- Shop This Design End
+                 Newsletter Start -->
+      <div class="newsletters relative bg-cover bg-center" style="background-image: url(images/newsletter-bg.jpg)">
+        <div class="overlay absolute top-0 left-0 w-full h-full flex bg-accent-3 mix-blend-multiply opacity-80"></div>
+        <div class="container-narrow">
+          <div class="block md:flex py-12 relative items-center justify-between">
+            <div class="newsletter-content md:w-[55%]">
+              <h2 class="h2 md:h1 text-white mb-4">
+                <span class="font-normal">GET AN</span> INSTANT 10% OFF
+              </h2>
+              <p class="text-[25px] leading-7 text-white lg:pe-20">
+                Sign up for the 1st Place Spiritwear Newsletter and get
+                <strong>10% off</strong> your first order! Plus get alerts on
+                sales, news styles and more!
               </p>
             </div>
-            <div class="md:w-1/2 lg:w-1/3">
-              <div class="flex mt-16 md:mt-10">
-                <div class="w-1/2">
-                  <h4 class="text-md font-bold text-white">Shop</h4>
-                  <ul class="space-y-5 text-sm mt-10">
-                    <li class="flex items-baseline">
-                      <a
-                        class="transition-colors duration-200 text-white hover:text-accent"
-                        href="#"
-                        >View Collections</a
-                      >
-                    </li>
-                    <li class="flex items-baseline">
-                      <a
-                        class="transition-colors duration-200 text-white hover:text-accent"
-                        href="#"
-                        >Shop Popular</a
-                      >
-                    </li>
-                    <li class="flex items-baseline">
-                      <a
-                        class="transition-colors duration-200 text-white hover:text-accent"
-                        href="#"
-                        >Shop New</a
-                      >
-                    </li>
-                    <li class="flex items-baseline">
-                      <a
-                        class="transition-colors duration-200 text-white hover:text-accent"
-                        href="#"
-                        >Shop All</a
-                      >
-                    </li>
-                  </ul>
+            <div class="newsletter-form md:max-w-[450px] flex justify-center md:justify-end">
+              <form class="flex mt-5 md:mt-0">
+                <input type="text" name="name" id="name" placeholder="Enter Email Address"
+                  class="placeholder:text-[#797979] focus:outline-0 px-5 w-full grow" />
+                <button class="btn btn-yellow rounded-none">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Newsletter Ends 
+                 Shop By Design Start -->
+
+      <div class="shop-by-design py-[70px]">
+        <div class="container-narrow">
+          <div class="section--title text-center mb-10">
+            <h2 class="text-lg font-bold">SHOP BY DESIGN</h2>
+          </div>
+          <!-- Section Title Ends -->
+
+          <!-- Slider -->
+          <div class="slider-component relative" data-slides-per-view="4" data-slides-per-view-mb="1.8">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="design-card">
+                    <a href="#" class="block">
+                      <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                        <div class="image-contain">
+                          <img src="images/Design1.jpg" alt="" class="w-full" />
+                        </div>
+                      </div>
+                      <h4 class="text-sm leading-6 text-center">
+                        <strong>Medina Bees Angle Logo</strong>
+                      </h4>
+                    </a>
+                  </div>
+                  <!-- Design Card -->
                 </div>
-                <div class="w-1/2">
-                  <h4 class="text-md font-bold text-white">Support</h4>
-                  <ul class="space-y-5 text-sm mt-10">
-                    <li class="flex items-baseline">
-                      <a
-                        class="transition-colors duration-200 text-white hover:text-accent"
-                        href="#"
-                        >Shipping & Returns</a
-                      >
-                    </li>
-                    <li class="flex items-baseline">
-                      <a
-                        class="transition-colors duration-200 text-white hover:text-accent"
-                        href="#"
-                        >Submit Feedback</a
-                      >
-                    </li>
-                    <li class="flex items-baseline">
-                      <a
-                        class="transition-colors duration-200 text-white hover:text-accent"
-                        href="#"
-                        >Report an Issue</a
-                      >
-                    </li>
-                    <li class="flex items-baseline">
-                      <a
-                        class="transition-colors duration-200 text-white hover:text-accent"
-                        href="#"
-                        >Contact Us</a
-                      >
-                    </li>
-                  </ul>
+                <div class="swiper-slide">
+                  <div class="design-card">
+                    <a href="#" class="block">
+                      <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                        <div class="image-contain">
+                          <img src="images/Design2.jpg" alt="" class="w-full" />
+                        </div>
+                      </div>
+                      <h4 class="text-sm leading-6 text-center">
+                        <strong>Medina Bees Stacked Logo</strong>
+                      </h4>
+                    </a>
+                  </div>
+                  <!-- Design Card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="design-card">
+                    <a href="#" class="block">
+                      <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                        <div class="image-contain">
+                          <img src="images/Design3.jpg" alt="" class="w-full" />
+                        </div>
+                      </div>
+                      <h4 class="text-sm leading-6 text-center">
+                        <strong>Medina Bees Texture Logo</strong>
+                      </h4>
+                    </a>
+                  </div>
+                  <!-- Design Card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="design-card">
+                    <a href="#" class="block">
+                      <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                        <div class="image-contain">
+                          <img src="images/Design4.jpg" alt="" class="w-full" />
+                        </div>
+                      </div>
+                      <h4 class="text-sm leading-6 text-center">
+                        <strong>Medina Bees Angle Logo</strong>
+                      </h4>
+                    </a>
+                  </div>
+                  <!-- Design Card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="design-card">
+                    <a href="#" class="block">
+                      <div class="card-media relative overflow-hidden rounded-[10px] mb-6">
+                        <div class="image-contain">
+                          <img src="images/Design1.jpg" alt="" class="w-full" />
+                        </div>
+                      </div>
+                      <h4 class="text-sm leading-6 text-center">
+                        <strong>Medina Bees Angle Logo</strong>
+                      </h4>
+                    </a>
+                  </div>
+                  <!-- Design Card -->
                 </div>
               </div>
             </div>
-          </div>
-          <div class="footer-social-icons flex mt-20 md:mt-10">
-            <a
-              href="#"
-              title="Facebook"
-              class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="29"
-                viewBox="0 0 28 29">
-                <g
-                  id="Icon_"
-                  data-name="Icon "
-                  transform="translate(-0.436 0.493)">
-                  <rect
-                    id="Area_ICON:feather_facebook_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_"
-                    data-name="Area [ICON:feather/facebook][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]"
-                    width="28"
-                    height="29"
-                    transform="translate(0.436 -0.493)"
-                    fill="rgba(253,73,198,0.35)"
-                    opacity="0" />
-                  <g id="Icon" transform="translate(8.199 2.343)">
-                    <path
-                      id="Path"
-                      d="M18.718,1.667H15.2A5.856,5.856,0,0,0,9.347,7.523v3.514H5.833v4.686H9.347v9.369h4.686V15.723h3.514l1.171-4.686H14.033V7.523A1.171,1.171,0,0,1,15.2,6.352h3.514Z"
-                      transform="translate(-5.833 -1.667)"
-                      fill="none"
-                      stroke="#fff"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.667" />
-                  </g>
-                </g>
-              </svg>
-            </a>
-            <a
-              href="#"
-              title="Twitter"
-              class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="28.143"
-                height="29"
-                viewBox="0 0 28.143 29">
-                <g
-                  id="Icon_"
-                  data-name="Icon "
-                  transform="translate(-0.337 0.493)">
-                  <rect
-                    id="Area_ICON:feather_twitter_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_"
-                    data-name="Area [ICON:feather/twitter][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]"
-                    width="28"
-                    height="29"
-                    transform="translate(0.48 -0.493)"
-                    fill="rgba(253,73,198,0.35)"
-                    opacity="0" />
-                  <g id="Icon" transform="translate(1.171 3.502)">
-                    <path
-                      id="Path"
-                      d="M26.6,2.5A12.783,12.783,0,0,1,22.924,4.3,5.247,5.247,0,0,0,13.718,7.81V8.98A12.487,12.487,0,0,1,3.176,3.674S-1.509,14.216,9.033,18.9a13.631,13.631,0,0,1-8.2,2.342c10.542,5.857,23.427,0,23.427-13.47a5.255,5.255,0,0,0-.094-.973A9.033,9.033,0,0,0,26.6,2.5Z"
-                      transform="translate(-0.833 -2.491)"
-                      fill="none"
-                      stroke="#fff"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.667" />
-                  </g>
-                </g>
-              </svg>
-            </a>
 
-            <a
-              href="#"
-              title="Linkedn"
-              class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="29"
-                height="29"
-                viewBox="0 0 29 29">
-                <g
-                  id="Icon_"
-                  data-name="Icon "
-                  transform="translate(0.476 0.493)">
-                  <rect
-                    id="Area_ICON:feather_linkedin_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_"
-                    data-name="Area [ICON:feather/linkedin][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]"
-                    width="29"
-                    height="29"
-                    transform="translate(-0.476 -0.493)"
-                    fill="rgba(253,73,198,0.35)"
-                    opacity="0" />
-                  <g id="Icon" transform="translate(2.343 2.343)">
-                    <path
-                      id="Path"
-                      d="M15.361,6.667a7.027,7.027,0,0,1,7.028,7.028v8.2H17.7v-8.2a2.342,2.342,0,1,0-4.685,0v8.2H8.333v-8.2A7.028,7.028,0,0,1,15.361,6.667Z"
-                      transform="translate(1.037 0.361)"
-                      fill="none"
-                      stroke="#fff"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.667" />
-                    <rect
-                      id="Rect"
-                      width="4.685"
-                      height="14.056"
-                      transform="translate(0 8.199)"
-                      fill="none"
-                      stroke="#fff"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.667" />
-                    <circle
-                      id="Path-2"
-                      data-name="Path"
-                      cx="2.343"
-                      cy="2.343"
-                      r="2.343"
-                      transform="translate(0 0)"
-                      fill="none"
-                      stroke="#fff"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.667" />
-                  </g>
+            <!-- If we need navigation buttons -->
+            <div
+              class="swiper-arrow-prev hidden md:inline-block absolute top-[40%] -left-[80px] z-10 w-[50px] h-[50px] text-center rounded-full py-[10px] hover:bg-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18.151" height="29.079" viewBox="0 0 18.151 29.079"
+                class="m-auto">
+                <g id="Group_2" data-name="Group 2" transform="translate(2.121 2.121)">
+                  <line id="Line_2" data-name="Line 2" x2="19.669" transform="translate(13.908 0) rotate(135)"
+                    fill="none" stroke="#000" stroke-width="6" />
+                  <line id="Line_3" data-name="Line 3" x2="19.669" transform="translate(13.908 24.836) rotate(-135)"
+                    fill="none" stroke="#000" stroke-width="6" />
                 </g>
               </svg>
-            </a>
+            </div>
 
-            <a
-              href="#"
-              title="Youtube"
-              class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="29"
-                height="29"
-                viewBox="0 0 29 29">
-                <g
-                  id="Icon_"
-                  data-name="Icon "
-                  transform="translate(0.432 0.493)">
-                  <rect
-                    id="Area_ICON:feather_youtube_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_"
-                    data-name="Area [ICON:feather/youtube][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]"
-                    width="29"
-                    height="29"
-                    transform="translate(-0.432 -0.493)"
-                    fill="rgba(253,73,198,0.35)"
-                    opacity="0" />
-                  <g id="Icon" transform="translate(1.17 4.685)">
-                    <path
-                      id="Path"
-                      d="M26.063,6.168a3.256,3.256,0,0,0-2.271-2.343c-2.016-.492-10.074-.492-10.074-.492s-8.058,0-10.074.54A3.254,3.254,0,0,0,1.373,6.214a33.937,33.937,0,0,0-.54,6.2,33.919,33.919,0,0,0,.54,6.242A3.255,3.255,0,0,0,3.644,20.9c2.016.54,10.074.54,10.074.54s8.058,0,10.074-.54a3.254,3.254,0,0,0,2.271-2.342,33.917,33.917,0,0,0,.54-6.149A33.934,33.934,0,0,0,26.063,6.168Z"
-                      transform="translate(-0.833 -3.333)"
-                      fill="none"
-                      stroke="#fff"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.667" />
-                    <path
-                      id="Path-2"
-                      data-name="Path"
-                      d="M8.125,14.727,14.86,10.9,8.125,7.067Z"
-                      transform="translate(2.125 -1.819)"
-                      fill="none"
-                      stroke="#fff"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.667" />
-                  </g>
+            <div
+              class="swiper-arrow-next hidden md:inline-block absolute top-[40%] -right-[80px] z-10 w-[50px] h-[50px] text-center rounded-full py-[10px] hover:bg-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18.151" height="29.079" viewBox="0 0 18.151 29.079"
+                class="m-auto">
+                <g id="Group_3" data-name="Group 3" transform="translate(2.121 2.121)">
+                  <line id="Line_2" data-name="Line 2" x2="19.669" transform="translate(0 0) rotate(45)" fill="none"
+                    stroke="#000" stroke-width="6" />
+                  <line id="Line_3" data-name="Line 3" x2="19.669" transform="translate(0 24.836) rotate(-45)"
+                    fill="none" stroke="#000" stroke-width="6" />
                 </g>
               </svg>
-            </a>
+            </div>
           </div>
-          <div class="text-white text-xs md:mt-36">
-            ©2023 1st Place Spiritwear. All Rights Reserved. All trademarks and
-            registered trademarks are property of their owners.
-            <a href="#">Privacy Policy / Terms of Service</a>
+          <!-- Slider Ends -->
+          <div class="text-center mt-10">
+            <a href="#" class="btn btn-yellow">SHOP ALL DESIGNS</a>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+      <!-- Shop By Design End
+                 CTA Start -->
 
-    <div
-      id="personalize"
-      class="relative z-10"
-      aria-labelledby="modal-title"
-      role="dialog"
-      aria-modal="false">
-      <div
-        class="fixed inset-0 bg-[#707070] bg-opacity-90 transition-opacity"></div>
+      <div class="relative bg-cover bg-center" style="background-image: url(images/cta-bg.jpg)">
+        <div class="overlay absolute top-0 left-0 w-full h-full flex bg-accent mix-blend-multiply opacity-80"></div>
+        <div class="container-narrow">
+          <div class="block md:flex py-12 relative items-center justify-between">
+            <div class="md:w-[60%]">
+              <h2 class="text-lg md:text-6xl uppercase md:h1 font-black text-[#1A2F26] mb-4">
+                <span class="font-normal">Medina Bees</span> MVP Rewards
+              </h2>
+              <p class="text-[25px] leading-7 text-[#1A2F26] lg:pe-20">
+                Earn <strong>MVP Points</strong> with every purchase! Redeem
+                your MVP Points towards big savings and free swag!
+              </p>
+            </div>
+            <div class="md:max-w-[450px] flex justify-center md:justify-end mt-5 md:mt-0">
+              <a href="#"
+                class="text-2xl font-bold leading-4 inline-block items-center cursor-pointer bg-accent-3 text-white transition ease-in-out duration-300 text-center justify-center border-0 px-[36px] py-[18px]">Learn
+                More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CTA Ends -->
+    </main>
+    <footer class="bg-black py-5">
+      <div class="container-narrow">
+        <div class="block md:flex md:justify-between mt-16 md:mt-10 lg:mt-24">
+          <div class="md:w-1/3">
+            <div class="image-contain">
+              <img src="images/footer-logo.svg" class="max-w-[260px]" />
+            </div>
+            <p class="text-white leading-7 mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="md:w-1/2 lg:w-1/3">
+            <div class="flex mt-16 md:mt-10">
+              <div class="w-1/2">
+                <h4 class="text-md font-bold text-white">Shop</h4>
+                <ul class="space-y-5 text-sm mt-10">
+                  <li class="flex items-baseline">
+                    <a class="transition-colors duration-200 text-white hover:text-accent" href="#">View Collections</a>
+                  </li>
+                  <li class="flex items-baseline">
+                    <a class="transition-colors duration-200 text-white hover:text-accent" href="#">Shop Popular</a>
+                  </li>
+                  <li class="flex items-baseline">
+                    <a class="transition-colors duration-200 text-white hover:text-accent" href="#">Shop New</a>
+                  </li>
+                  <li class="flex items-baseline">
+                    <a class="transition-colors duration-200 text-white hover:text-accent" href="#">Shop All</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-1/2">
+                <h4 class="text-md font-bold text-white">Support</h4>
+                <ul class="space-y-5 text-sm mt-10">
+                  <li class="flex items-baseline">
+                    <a class="transition-colors duration-200 text-white hover:text-accent" href="#">Shipping &
+                      Returns</a>
+                  </li>
+                  <li class="flex items-baseline">
+                    <a class="transition-colors duration-200 text-white hover:text-accent" href="#">Submit Feedback</a>
+                  </li>
+                  <li class="flex items-baseline">
+                    <a class="transition-colors duration-200 text-white hover:text-accent" href="#">Report an Issue</a>
+                  </li>
+                  <li class="flex items-baseline">
+                    <a class="transition-colors duration-200 text-white hover:text-accent" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-social-icons flex mt-20 md:mt-10">
+          <a href="#" title="Facebook"
+            class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29">
+              <g id="Icon_" data-name="Icon " transform="translate(-0.436 0.493)">
+                <rect id="Area_ICON:feather_facebook_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_"
+                  data-name="Area [ICON:feather/facebook][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28"
+                  height="29" transform="translate(0.436 -0.493)" fill="rgba(253,73,198,0.35)" opacity="0" />
+                <g id="Icon" transform="translate(8.199 2.343)">
+                  <path id="Path"
+                    d="M18.718,1.667H15.2A5.856,5.856,0,0,0,9.347,7.523v3.514H5.833v4.686H9.347v9.369h4.686V15.723h3.514l1.171-4.686H14.033V7.523A1.171,1.171,0,0,1,15.2,6.352h3.514Z"
+                    transform="translate(-5.833 -1.667)" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.667" />
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a href="#" title="Twitter"
+            class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28.143" height="29" viewBox="0 0 28.143 29">
+              <g id="Icon_" data-name="Icon " transform="translate(-0.337 0.493)">
+                <rect id="Area_ICON:feather_twitter_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_"
+                  data-name="Area [ICON:feather/twitter][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28"
+                  height="29" transform="translate(0.48 -0.493)" fill="rgba(253,73,198,0.35)" opacity="0" />
+                <g id="Icon" transform="translate(1.171 3.502)">
+                  <path id="Path"
+                    d="M26.6,2.5A12.783,12.783,0,0,1,22.924,4.3,5.247,5.247,0,0,0,13.718,7.81V8.98A12.487,12.487,0,0,1,3.176,3.674S-1.509,14.216,9.033,18.9a13.631,13.631,0,0,1-8.2,2.342c10.542,5.857,23.427,0,23.427-13.47a5.255,5.255,0,0,0-.094-.973A9.033,9.033,0,0,0,26.6,2.5Z"
+                    transform="translate(-0.833 -2.491)" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.667" />
+                </g>
+              </g>
+            </svg>
+          </a>
 
-      <div class="fixed inset-0 z-10 overflow-y-auto">
+          <a href="#" title="Linkedn"
+            class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+              <g id="Icon_" data-name="Icon " transform="translate(0.476 0.493)">
+                <rect id="Area_ICON:feather_linkedin_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_"
+                  data-name="Area [ICON:feather/linkedin][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="29"
+                  height="29" transform="translate(-0.476 -0.493)" fill="rgba(253,73,198,0.35)" opacity="0" />
+                <g id="Icon" transform="translate(2.343 2.343)">
+                  <path id="Path"
+                    d="M15.361,6.667a7.027,7.027,0,0,1,7.028,7.028v8.2H17.7v-8.2a2.342,2.342,0,1,0-4.685,0v8.2H8.333v-8.2A7.028,7.028,0,0,1,15.361,6.667Z"
+                    transform="translate(1.037 0.361)" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.667" />
+                  <rect id="Rect" width="4.685" height="14.056" transform="translate(0 8.199)" fill="none" stroke="#fff"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" />
+                  <circle id="Path-2" data-name="Path" cx="2.343" cy="2.343" r="2.343" transform="translate(0 0)"
+                    fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667" />
+                </g>
+              </g>
+            </svg>
+          </a>
+
+          <a href="#" title="Youtube"
+            class="w-16 h-16 inline-flex items-center justify-center rounded-full transition-all border border-transparent hover:border-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+              <g id="Icon_" data-name="Icon " transform="translate(0.432 0.493)">
+                <rect id="Area_ICON:feather_youtube_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_"
+                  data-name="Area [ICON:feather/youtube][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="29"
+                  height="29" transform="translate(-0.432 -0.493)" fill="rgba(253,73,198,0.35)" opacity="0" />
+                <g id="Icon" transform="translate(1.17 4.685)">
+                  <path id="Path"
+                    d="M26.063,6.168a3.256,3.256,0,0,0-2.271-2.343c-2.016-.492-10.074-.492-10.074-.492s-8.058,0-10.074.54A3.254,3.254,0,0,0,1.373,6.214a33.937,33.937,0,0,0-.54,6.2,33.919,33.919,0,0,0,.54,6.242A3.255,3.255,0,0,0,3.644,20.9c2.016.54,10.074.54,10.074.54s8.058,0,10.074-.54a3.254,3.254,0,0,0,2.271-2.342,33.917,33.917,0,0,0,.54-6.149A33.934,33.934,0,0,0,26.063,6.168Z"
+                    transform="translate(-0.833 -3.333)" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.667" />
+                  <path id="Path-2" data-name="Path" d="M8.125,14.727,14.86,10.9,8.125,7.067Z"
+                    transform="translate(2.125 -1.819)" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.667" />
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="text-white text-xs md:mt-36">
+          ©2023 1st Place Spiritwear. All Rights Reserved. All trademarks and
+          registered trademarks are property of their owners.
+          <a href="#">Privacy Policy / Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="personalize" class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="false">
+    <div class="fixed inset-0 bg-[#707070] bg-opacity-90 transition-opacity"></div>
+
+    <div class="fixed inset-0 z-10 overflow-y-auto">
+      <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center lg:p-0">
         <div
-          class="flex min-h-full items-end justify-center p-4 text-center sm:items-center lg:p-0">
-          <div
-            class="relative transform overflow-hidden bg-white text-left shadow-xl transition-all w-full sm:my-6 sm:w-full sm:max-w-5xl">
-            <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
-              <button data-close-modal class="absolute right-3 top-3">
-                <svg
-                  class="w-5 h-5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="37.226"
-                  height="37.226"
-                  viewBox="0 0 37.226 37.226">
-                  <defs>
-                    <clipPath id="clip-path">
-                      <rect
-                        id="Rectangle_71"
-                        data-name="Rectangle 71"
-                        width="26.323"
-                        height="26.323"
-                        transform="translate(0 0.001)"
-                        fill="none"
-                        stroke="#000"
-                        stroke-width="1" />
-                    </clipPath>
-                  </defs>
-                  <g
-                    id="Group_380"
-                    data-name="Group 380"
-                    transform="translate(18.614 0) rotate(45)">
-                    <g
-                      id="Group_186"
-                      data-name="Group 186"
-                      clip-path="url(#clip-path)">
-                      <line
-                        id="Line_27"
-                        data-name="Line 27"
-                        y2="25.324"
-                        transform="translate(13.162 0.5)"
-                        fill="none"
-                        stroke="#000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1" />
-                      <line
-                        id="Line_28"
-                        data-name="Line 28"
-                        x1="25.324"
-                        transform="translate(0.5 13.162)"
-                        fill="none"
-                        stroke="#000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1" />
-                    </g>
+          class="relative transform overflow-hidden bg-white text-left shadow-xl transition-all w-full sm:my-6 sm:w-full sm:max-w-5xl">
+          <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+            <button data-close-modal class="absolute right-3 top-3">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="37.226" height="37.226" viewBox="0 0 37.226 37.226">
+                <defs>
+                  <clipPath id="clip-path">
+                    <rect id="Rectangle_71" data-name="Rectangle 71" width="26.323" height="26.323"
+                      transform="translate(0 0.001)" fill="none" stroke="#000" stroke-width="1" />
+                  </clipPath>
+                </defs>
+                <g id="Group_380" data-name="Group 380" transform="translate(18.614 0) rotate(45)">
+                  <g id="Group_186" data-name="Group 186" clip-path="url(#clip-path)">
+                    <line id="Line_27" data-name="Line 27" y2="25.324" transform="translate(13.162 0.5)" fill="none"
+                      stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                    <line id="Line_28" data-name="Line 28" x1="25.324" transform="translate(0.5 13.162)" fill="none"
+                      stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
                   </g>
-                </svg>
-              </button>
-              <div class="block md:flex md:space-x-10">
-                <div class="w-full md:w-1/2">
-                  <div class="image-contain bg-media rounded-[10px] p-3">
-                    <img
-                      src="images/product.png"
-                      data-product-front
-                      alt=""
-                      class="w-full" />
+                </g>
+              </svg>
+            </button>
+            <div class="block md:flex md:space-x-10">
+              <div class="w-full md:w-1/2">
+                <div class="image-contain bg-media rounded-[10px] p-3">
+                  <img src="images/product.png" data-product-front alt="" class="w-full" />
+                </div>
+                <div class="flex items-center justify-around space-x-5 my-5">
+                  <button class="text-center font-bold text-sm md:text-2xl px-3 border-b-2 border-transparent">
+                    Front
+                  </button>
+                  <button class="text-center font-bold text-sm md:text-2xl px-3 border-b-2 border-black">
+                    Back
+                  </button>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2">
+                <h3 class="text-sm md:text-3xl font-bold text-black mb-5">
+                  Shirt Back
+                </h3>
+                <h5 class="text-xs font-bold mb-2">Personalize Back Side</h5>
+                <div class="sm:flex sm:space-x-8 mb-6">
+                  <div class="flex-1 sm:w-3/4 relative bg-[#F2F2F2]">
+                    <label for="name" class="text-[#797979] text-[10px] absolute left-[10px] top-0">Enter Name:</label>
+                    <input type="text" id="name" name="name"
+                      class="relative z-10 text-xs font-bold text-black w-full px-5 pt-[20px] pb-[10px] h-12 bg-transparent appearance-none focus-visible:outline-none placeholder:text-black" />
                   </div>
-                  <div class="flex items-center justify-around space-x-5 my-5">
-                    <button
-                      class="text-center font-bold text-sm md:text-2xl px-3 border-b-2 border-transparent">
-                      Front
-                    </button>
-                    <button
-                      class="text-center font-bold text-sm md:text-2xl px-3 border-b-2 border-black">
-                      Back
-                    </button>
+                  <div class="sm:w-[150px] relative bg-[#F2F2F2] mt-2 sm:mt-0">
+                    <label for="Jersey" class="text-[#797979] text-[10px] absolute left-[10px] top-0">Jersey
+                      Number:</label>
+                    <input type="text" id="Jersey" name="Jersey"
+                      class="relative z-10 text-xs font-bold text-black w-full px-5 pt-[20px] pb-[10px] h-12 bg-transparent appearance-none focus-visible:outline-none placeholder:text-black" />
                   </div>
                 </div>
-                <div class="w-full md:w-1/2">
-                  <h3 class="text-sm md:text-3xl font-bold text-black mb-5">
-                    Shirt Back
-                  </h3>
-                  <h5 class="text-xs font-bold mb-2">Personalize Back Side</h5>
-                  <div class="sm:flex sm:space-x-8 mb-6">
-                    <div class="flex-1 sm:w-3/4 relative bg-[#F2F2F2]">
-                      <label
-                        for="name"
-                        class="text-[#797979] text-[10px] absolute left-[10px] top-0"
-                        >Enter Name:</label
-                      >
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        class="relative z-10 text-xs font-bold text-black w-full px-5 pt-[20px] pb-[10px] h-12 bg-transparent appearance-none focus-visible:outline-none placeholder:text-black" />
-                    </div>
-                    <div
-                      class="sm:w-[150px] relative bg-[#F2F2F2] mt-2 sm:mt-0">
-                      <label
-                        for="Jersey"
-                        class="text-[#797979] text-[10px] absolute left-[10px] top-0"
-                        >Jersey Number:</label
-                      >
-                      <input
-                        type="text"
-                        id="Jersey"
-                        name="Jersey"
-                        class="relative z-10 text-xs font-bold text-black w-full px-5 pt-[20px] pb-[10px] h-12 bg-transparent appearance-none focus-visible:outline-none placeholder:text-black" />
-                    </div>
-                  </div>
 
-                  <div
-                    class="grid grid-cols-3 gap-4 flex-wrap md:gap-5 mb-[20px]">
-                    <label class="cursor-pointer">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
-                        <p class="text-xs md:text-[18px] font-bold mb-0">
-                          MEADOWS
-                        </p>
-                        <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
-                        <p
-                          class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
-                          +4.99
-                        </p>
-                      </span>
-                    </label>
-                    <label class="cursor-pointer">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
-                        <p class="text-xs md:text-[18px] font-bold mb-0">
-                          MEADOWS
-                        </p>
-                        <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
-                        <p
-                          class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
-                          +4.99
-                        </p>
-                      </span>
-                    </label>
-                    <label class="cursor-pointer">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
-                        <p class="text-xs md:text-[18px] font-bold mb-0">
-                          MEADOWS
-                        </p>
-                        <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
-                        <p
-                          class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
-                          +4.99
-                        </p>
-                      </span>
-                    </label>
-                    <label class="cursor-pointer">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
-                        <p class="text-xs md:text-[18px] font-bold mb-0">
-                          MEADOWS
-                        </p>
-                        <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
-                        <p
-                          class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
-                          +4.99
-                        </p>
-                      </span>
-                    </label>
-                    <label class="cursor-pointer">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
-                        <p class="text-xs md:text-[18px] font-bold mb-0">
-                          MEADOWS
-                        </p>
-                        <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
-                        <p
-                          class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
-                          +4.99
-                        </p>
-                      </span>
-                    </label>
-                    <label class="cursor-pointer">
-                      <input
-                        type="radio"
-                        name="size"
-                        class="peer absolute opacity-0 h-0 w-0" />
-                      <span
-                        class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
-                        <p class="text-xs md:text-[18px] font-bold mb-0">
-                          MEADOWS
-                        </p>
-                        <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
-                        <p
-                          class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
-                          +4.99
-                        </p>
-                      </span>
-                    </label>
-                  </div>
+                <div class="grid grid-cols-3 gap-4 flex-wrap md:gap-5 mb-[20px]">
+                  <label class="cursor-pointer">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
+                      <p class="text-xs md:text-[18px] font-bold mb-0">
+                        MEADOWS
+                      </p>
+                      <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
+                      <p class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
+                        +4.99
+                      </p>
+                    </span>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
+                      <p class="text-xs md:text-[18px] font-bold mb-0">
+                        MEADOWS
+                      </p>
+                      <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
+                      <p class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
+                        +4.99
+                      </p>
+                    </span>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
+                      <p class="text-xs md:text-[18px] font-bold mb-0">
+                        MEADOWS
+                      </p>
+                      <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
+                      <p class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
+                        +4.99
+                      </p>
+                    </span>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
+                      <p class="text-xs md:text-[18px] font-bold mb-0">
+                        MEADOWS
+                      </p>
+                      <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
+                      <p class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
+                        +4.99
+                      </p>
+                    </span>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
+                      <p class="text-xs md:text-[18px] font-bold mb-0">
+                        MEADOWS
+                      </p>
+                      <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
+                      <p class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
+                        +4.99
+                      </p>
+                    </span>
+                  </label>
+                  <label class="cursor-pointer">
+                    <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
+                    <span
+                      class="relative block rounded-[10px] border border-black text-center w-full md:h-[140px] p-1 md:p-4 peer-checked:border-[3px] peer-checked:border-accent-2">
+                      <p class="text-xs md:text-[18px] font-bold mb-0">
+                        MEADOWS
+                      </p>
+                      <h3 class="font-Orbitron text-3xl md:text-6xl">23</h3>
+                      <p class="text-[17px] font-bold text-right mt-2 md:absolute md:bottom-2 md:right-2">
+                        +4.99
+                      </p>
+                    </span>
+                  </label>
+                </div>
 
-                  <div class="flex space-x-5">
-                    <button
-                      class="text-sm font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-[#D6D6D6] rounded-[10px] h-16 px-5 bg-heading text-black py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full md:w-6/12 xl:w-full">
-                      <span>Cancel</span>
-                    </button>
-                    <button
-                      class="text-sm font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-accent-2 rounded-[10px] h-16 px-5 bg-heading text-white py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full md:w-6/12 xl:w-full">
-                      <span>Save</span>
-                    </button>
-                  </div>
+                <div class="flex space-x-5">
+                  <button
+                    class="text-sm font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-[#D6D6D6] rounded-[10px] h-16 px-5 bg-heading text-black py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full md:w-6/12 xl:w-full">
+                    <span>Cancel</span>
+                  </button>
+                  <button
+                    class="text-sm font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-accent-2 rounded-[10px] h-16 px-5 bg-heading text-white py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full md:w-6/12 xl:w-full">
+                    <span>Save</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -1997,110 +1199,62 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div
-      id="confirm_personalize"
-      class="relative z-10"
-      aria-labelledby="modal-title"
-      role="dialog"
-      aria-modal="false">
-      <div
-        class="fixed inset-0 bg-[#707070] bg-opacity-90 transition-opacity"></div>
+  <div id="confirm_personalize" class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="false">
+    <div class="fixed inset-0 bg-[#707070] bg-opacity-90 transition-opacity"></div>
 
-      <div class="fixed inset-0 z-10 overflow-y-auto">
+    <div class="fixed inset-0 z-10 overflow-y-auto">
+      <div class="flex min-h-full items-center justify-center p-4 text-center sm:items-center lg:p-0">
         <div
-          class="flex min-h-full items-center justify-center p-4 text-center sm:items-center lg:p-0">
-          <div
-            class="relative transform overflow-hidden bg-white text-left shadow-xl transition-all w-full sm:my-6 sm:w-full sm:max-w-5xl">
-            <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
-              <button data-close-modal class="absolute right-3 top-3">
-                <svg
-                  class="w-5 h-5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="37.226"
-                  height="37.226"
-                  viewBox="0 0 37.226 37.226">
-                  <defs>
-                    <clipPath id="clip-path">
-                      <rect
-                        id="Rectangle_71"
-                        data-name="Rectangle 71"
-                        width="26.323"
-                        height="26.323"
-                        transform="translate(0 0.001)"
-                        fill="none"
-                        stroke="#000"
-                        stroke-width="1" />
-                    </clipPath>
-                  </defs>
-                  <g
-                    id="Group_380"
-                    data-name="Group 380"
-                    transform="translate(18.614 0) rotate(45)">
-                    <g
-                      id="Group_186"
-                      data-name="Group 186"
-                      clip-path="url(#clip-path)">
-                      <line
-                        id="Line_27"
-                        data-name="Line 27"
-                        y2="25.324"
-                        transform="translate(13.162 0.5)"
-                        fill="none"
-                        stroke="#000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1" />
-                      <line
-                        id="Line_28"
-                        data-name="Line 28"
-                        x1="25.324"
-                        transform="translate(0.5 13.162)"
-                        fill="none"
-                        stroke="#000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1" />
-                    </g>
+          class="relative transform overflow-hidden bg-white text-left shadow-xl transition-all w-full sm:my-6 sm:w-full sm:max-w-5xl">
+          <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+            <button data-close-modal class="absolute right-3 top-3">
+              <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="37.226" height="37.226" viewBox="0 0 37.226 37.226">
+                <defs>
+                  <clipPath id="clip-path">
+                    <rect id="Rectangle_71" data-name="Rectangle 71" width="26.323" height="26.323"
+                      transform="translate(0 0.001)" fill="none" stroke="#000" stroke-width="1" />
+                  </clipPath>
+                </defs>
+                <g id="Group_380" data-name="Group 380" transform="translate(18.614 0) rotate(45)">
+                  <g id="Group_186" data-name="Group 186" clip-path="url(#clip-path)">
+                    <line id="Line_27" data-name="Line 27" y2="25.324" transform="translate(13.162 0.5)" fill="none"
+                      stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+                    <line id="Line_28" data-name="Line 28" x1="25.324" transform="translate(0.5 13.162)" fill="none"
+                      stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
                   </g>
-                </svg>
-              </button>
-              <div class="block md:flex md:space-x-10">
-                <div class="w-full md:w-1/2">
-                  <div class="image-contain bg-media rounded-[10px] p-3">
-                    <img
-                      src="images/product.png"
-                      data-product-front
-                      alt=""
-                      class="w-full" />
-                  </div>
+                </g>
+              </svg>
+            </button>
+            <div class="block md:flex md:space-x-10">
+              <div class="w-full md:w-1/2">
+                <div class="image-contain bg-media rounded-[10px] p-3">
+                  <img src="images/product.png" data-product-front alt="" class="w-full" />
                 </div>
-                <div class="w-full md:w-1/2 py-10 self-center">
-                  <div class="space-y-0">
-                    <h2
-                      class="text-md md:text-5xl text-accent-3 font-bold text-center">
-                      PERSONALIZE
-                    </h2>
-                    <p
-                      class="text-sm md:text-md leading-tight font-bold uppercase text-center">
-                      YOUR SHIRT BACK
-                    </p>
-                    <p
-                      class="text-sm md:text-md leading-tight font-bold uppercase text-center">
-                      FOR JUST $4.99
-                    </p>
-                  </div>
-                  <div class="flex space-x-5 mt-10 lg:mt-36">
-                    <button
-                      class="text-xs md:text-sm font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-[#D6D6D6] h-14 px-5 bg-heading text-black py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full md:w-6/12 xl:w-full">
-                      <span>NO THANKS</span>
-                    </button>
-                    <button
-                      class="text-xs md:text-sm font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-accent-2 h-14 px-5 bg-heading text-white py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full md:w-6/12 xl:w-full">
-                      <span>YES, PLEASE!</span>
-                    </button>
-                  </div>
+              </div>
+              <div class="w-full md:w-1/2 py-10 self-center">
+                <div class="space-y-0">
+                  <h2 class="text-md md:text-5xl text-accent-3 font-bold text-center">
+                    PERSONALIZE
+                  </h2>
+                  <p class="text-sm md:text-md leading-tight font-bold uppercase text-center">
+                    YOUR SHIRT BACK
+                  </p>
+                  <p class="text-sm md:text-md leading-tight font-bold uppercase text-center">
+                    FOR JUST $4.99
+                  </p>
+                </div>
+                <div class="flex space-x-5 mt-10 lg:mt-36">
+                  <button
+                    class="text-xs md:text-sm font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-[#D6D6D6] h-14 px-5 bg-heading text-black py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full md:w-6/12 xl:w-full">
+                    <span>NO THANKS</span>
+                  </button>
+                  <button
+                    class="text-xs md:text-sm font-bold leading-4 inline-flex items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 bg-accent-2 h-14 px-5 bg-heading text-white py-2 transform-none normal-case hover:text-white hover:bg-button hover:shadow-cart w-full md:w-6/12 xl:w-full">
+                    <span>YES, PLEASE!</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -2108,8 +1262,10 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
