@@ -28,7 +28,8 @@ module.exports = {
                 'narrow': '1300px'
             },
             backgroundImage: {
-                'checkmark': "url('/images/check-icon.svg')"
+                'checkmark': "url('/images/check-icon.svg')",
+                'checkmark-black': "url('/images/check-icon-black.svg')"
             },
             fontSize: {
                 xxs: '12px',
