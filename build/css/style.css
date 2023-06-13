@@ -1108,6 +1108,10 @@ h4,
   width: 100px;
 }
 
+.w-\[14px\]{
+  width: 14px;
+}
+
 .w-\[15px\]{
   width: 15px;
 }
@@ -1832,7 +1836,7 @@ h4,
 }
 
 .text-xs{
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .text-xxs{
@@ -2244,14 +2248,34 @@ h4,
   top: 0px;
 }
 
+.after\:h-\[22px\]::after{
+  content: var(--tw-content);
+  height: 22px;
+}
+
 .after\:h-\[25px\]::after{
   content: var(--tw-content);
   height: 25px;
 }
 
+.after\:h-\[20px\]::after{
+  content: var(--tw-content);
+  height: 20px;
+}
+
+.after\:w-\[22px\]::after{
+  content: var(--tw-content);
+  width: 22px;
+}
+
 .after\:w-\[25px\]::after{
   content: var(--tw-content);
   width: 25px;
+}
+
+.after\:w-\[20px\]::after{
+  content: var(--tw-content);
+  width: 20px;
 }
 
 .after\:rounded-\[5px\]::after{
@@ -2433,6 +2457,11 @@ h4,
   top: -8px;
 }
 
+.peer:checked ~ .peer-checked\:before\:h-\[20px\]::before{
+  content: var(--tw-content);
+  height: 20px;
+}
+
 .peer:checked ~ .peer-checked\:before\:h-\[24px\]::before{
   content: var(--tw-content);
   height: 24px;
@@ -2441,6 +2470,11 @@ h4,
 .peer:checked ~ .peer-checked\:before\:h-\[25px\]::before{
   content: var(--tw-content);
   height: 25px;
+}
+
+.peer:checked ~ .peer-checked\:before\:w-\[20px\]::before{
+  content: var(--tw-content);
+  width: 20px;
 }
 
 .peer:checked ~ .peer-checked\:before\:w-\[24px\]::before{
@@ -2836,7 +2870,7 @@ h4,
   }
 
   .md\:text-xs{
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 

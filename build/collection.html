@@ -200,7 +200,7 @@
                     </button>
                     <button
                       class="flex items-center font-bold text-black text-xs px-2 rounded-3xl bg-[#F2F2F2] h-10 mb-3">
-                      <span class="inline-block bg-[#315147] w-[30px] h-[30px] rounded-full"></span>
+                      <span class="inline-block bg-[#315147] w-[24px] h-[24px] rounded-full"></span>
                       <svg class="w-6 ms-4" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" width="37.226" height="37.226"
                         viewBox="0 0 37.226 37.226">
@@ -223,16 +223,16 @@
                       </svg>
                     </button>
                   </div>
-                  <button class="flex-shrink text-sm font-bold border-b border-black mt-8" aria-label="Clear All">
+                  <button class="flex-shrink text-xs font-bold border-b border-black mt-8" aria-label="Clear All">
                     Clear All Filters
                   </button>
                 </div>
                 <!-- widget -->
                 <div class="widget border-t border-black mt-6">
                   <button
-                    class="widget-title w-full text-black font-bold text-sm py-6 flex items-center justify-between">
-                    <span>Personalize</span>
-                    <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+                    <span>Gender/Age</span>
+                    <svg class="w-[14px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
                       viewBox="0 0 20.889 11.957">
                       <path id="Path_3747" data-name="Path 3747"
                         d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -241,32 +241,44 @@
                     </svg>
                   </button>
                   <div class="widget-content transition-all">
-                    <div
-                      class="relative bg-[#F2F2F2] mb-6 before:content-['_'] before:w-[1px] before:top-[6px] before:bottom-[6px] before:bg-[#707070] before:absolute before:right-11">
-                      <select id="countries"
-                        class="relative z-10 text-xs font-bold text-black w-full px-[10px] py-3 h-12 bg-transparent appearance-none focus-visible:outline-none">
-                        <option selected>Select Relationship</option>
-                        <option value="US">United States</option>
-                        <option value="CA">Canada</option>
-                        <option value="FR">France</option>
-                        <option value="DE">Germany</option>
-                      </select>
-                      <svg class="w-[18px] absolute right-[12px] top-[18px]" xmlns="http://www.w3.org/2000/svg"
-                        width="20.889" height="11.957" viewBox="0 0 20.889 11.957">
-                        <path id="Path_3745" data-name="Path 3745"
-                          d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
-                          transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
-                          stroke-width="2" />
-                      </svg>
+                    <div class="mb-6">
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="gender" checked class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Adult Unisex</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="gender" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Women</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="gender" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Youth</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="gender" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Baby</span>
+                        </span>
+                      </label>
                     </div>
                   </div>
                 </div>
-                <!-- widget -->
+                <!-- widget / Gender/Age End -->
                 <div class="widget border-t border-black">
                   <button
-                    class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
                     <span>Size</span>
-                    <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                    <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
                       viewBox="0 0 20.889 11.957">
                       <path id="Path_3747" data-name="Path 3747"
                         d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -274,80 +286,80 @@
                         stroke-width="2" />
                     </svg>
                   </button>
-                  <div class="widget-content transition-all">
+                  <div class="widget-content transition-all collapsed">
                     <div class="flex flex-wrap mb-6 gap-2">
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>XS</span>
                         </span>
                       </label>
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>S</span>
                         </span>
                       </label>
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>M</span>
                         </span>
                       </label>
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>L</span>
                         </span>
                       </label>
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" checked class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>XL</span>
                         </span>
                       </label>
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>2XL</span>
                         </span>
                       </label>
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>2XL</span>
                         </span>
                       </label>
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>4XL</span>
                         </span>
                       </label>
                       <label class="flex-auto max-w-[40px] w-full">
                         <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                          class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                           <span>5XL</span>
                         </span>
                       </label>
                     </div>
                   </div>
                 </div>
-                <!-- widget -->
+                <!-- widget / Size End -->
                 <div class="widget border-t border-black">
                   <button
-                    class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
-                    <span>Color</span>
-                    <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+                    <span>Featured Departments</span>
+                    <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
                       viewBox="0 0 20.889 11.957">
                       <path id="Path_3747" data-name="Path 3747"
                         d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -355,185 +367,52 @@
                         stroke-width="2" />
                     </svg>
                   </button>
-                  <div class="widget-content transition-all">
+                  <div class="widget-content transition-all collapsed">
                     <div class="mb-6">
-                      <label class="flex justify-between items-center mb-[10px]">
-                        <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="fd" checked class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Green</span>
-                        </span>
-                        <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #315147">
-                          <span class="sr-only">Green</span>
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Hats</span>
                         </span>
                       </label>
-
-                      <label class="flex justify-between items-center mb-[10px]">
-                        <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="fd" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative block text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>White</span>
-                        </span>
-                        <span class="block border border-black rounded-full w-[16px] h-[16px] mr-5"
-                          style="background-color: #fff">
-                          <span class="sr-only">White</span>
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Jerseys</span>
                         </span>
                       </label>
-
-                      <label class="flex justify-between items-center mb-[10px]">
-                        <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="fd" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative block text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Yellow</span>
-                        </span>
-                        <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #ffdb00">
-                          <span class="sr-only">Yellow</span>
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Sweatshirts</span>
                         </span>
                       </label>
-
-                      <label class="flex justify-between items-center mb-[10px]">
-                        <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="fd" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative block text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Grey</span>
-                        </span>
-                        <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #d6d6d6">
-                          <span class="sr-only">Grey</span>
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>T-Shirts</span>
                         </span>
                       </label>
-
-                      <label class="flex justify-between items-center mb-[10px]">
-                        <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="fd" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Black</span>
-                        </span>
-                        <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #000">
-                          <span class="sr-only">Black</span>
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Sale Items</span>
                         </span>
                       </label>
                     </div>
                   </div>
                 </div>
-                <!-- widget -->
+                <!-- widget / Featured Departments End-->
                 <div class="widget border-t border-black">
                   <button
-                    class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
-                    <span>Brand</span>
-                    <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
-                      viewBox="0 0 20.889 11.957">
-                      <path id="Path_3747" data-name="Path 3747"
-                        d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
-                        transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
-                        stroke-width="2" />
-                    </svg>
-                  </button>
-                  <div class="widget-content transition-all">
-                    <div class="mb-6">
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="brand" checked class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Adidas</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Badger</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Bella+Canvas</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Gildan</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Nike</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Next Level</span>
-                        </span>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <!-- widget -->
-                <div class="widget border-t border-black">
-                  <button
-                    class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
-                    <span>Fit</span>
-                    <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
-                      viewBox="0 0 20.889 11.957">
-                      <path id="Path_3747" data-name="Path 3747"
-                        d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
-                        transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
-                        stroke-width="2" />
-                    </svg>
-                  </button>
-                  <div class="widget-content transition-all">
-                    <div class="mb-6">
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="fit" checked class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Classic</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="fit" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Regular</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="fit" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Slim</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="fit" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Gildan</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="fit" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Performance</span>
-                        </span>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <!-- widget -->
-                <div class="widget border-t border-black">
-                  <button
-                    class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
                     <span>Material</span>
-                    <svg class="w-[18px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                    <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
                       viewBox="0 0 20.889 11.957">
                       <path id="Path_3747" data-name="Path 3747"
                         d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -546,47 +425,214 @@
                       <label class="block mb-[10px]">
                         <input type="radio" name="material" checked class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Classic</span>
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Cotton</span>
                         </span>
                       </label>
                       <label class="block mb-[10px]">
                         <input type="radio" name="material" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Regular</span>
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Ultra-Soft Blend</span>
                         </span>
                       </label>
                       <label class="block mb-[10px]">
                         <input type="radio" name="material" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Slim</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="material" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                          <span>Gildan</span>
-                        </span>
-                      </label>
-                      <label class="block mb-[10px]">
-                        <input type="radio" name="material" class="peer absolute opacity-0 h-0 w-0" />
-                        <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                           <span>Performance</span>
                         </span>
                       </label>
                     </div>
                   </div>
                 </div>
-                <!-- widget -->
+                <!-- widget / Material End-->
                 <div class="widget border-t border-black">
                   <button
-                    class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+                    <span>Color</span>
+                    <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                      viewBox="0 0 20.889 11.957">
+                      <path id="Path_3747" data-name="Path 3747"
+                        d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                        transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                        stroke-width="2" />
+                    </svg>
+                  </button>
+                  <div class="widget-content transition-all collapsed">
+                    <div class="mb-6">
+                      <label class="flex justify-between items-center mb-[10px]">
+                        <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Green</span>
+                        </span>
+                        <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #315147">
+                          <span class="sr-only">Green</span>
+                        </span>
+                      </label>
+
+                      <label class="flex justify-between items-center mb-[10px]">
+                        <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative block text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>White</span>
+                        </span>
+                        <span class="block border border-black rounded-full w-[16px] h-[16px] mr-5"
+                          style="background-color: #fff">
+                          <span class="sr-only">White</span>
+                        </span>
+                      </label>
+
+                      <label class="flex justify-between items-center mb-[10px]">
+                        <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative block text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Yellow</span>
+                        </span>
+                        <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #ffdb00">
+                          <span class="sr-only">Yellow</span>
+                        </span>
+                      </label>
+
+                      <label class="flex justify-between items-center mb-[10px]">
+                        <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative block text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Grey</span>
+                        </span>
+                        <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #d6d6d6">
+                          <span class="sr-only">Grey</span>
+                        </span>
+                      </label>
+
+                      <label class="flex justify-between items-center mb-[10px]">
+                        <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Black</span>
+                        </span>
+                        <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #000">
+                          <span class="sr-only">Black</span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- widget / Color End-->
+                <div class="widget border-t border-black">
+                  <button
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+                    <span>Design Style</span>
+                    <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                      viewBox="0 0 20.889 11.957">
+                      <path id="Path_3747" data-name="Path 3747"
+                        d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                        transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                        stroke-width="2" />
+                    </svg>
+                  </button>
+                  <div class="widget-content transition-all collapsed">
+                    <div class="mb-6">
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="design" checked class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Traditional</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="design" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Vintage</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="design" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Trendy</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="design" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Novelty</span>
+                        </span>
+                      </label>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- widget / Design Style End -->
+                <div class="widget border-t border-black">
+                  <button
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+                    <span>Sports & Activities</span>
+                    <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                      viewBox="0 0 20.889 11.957">
+                      <path id="Path_3747" data-name="Path 3747"
+                        d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                        transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                        stroke-width="2" />
+                    </svg>
+                  </button>
+                  <div class="widget-content transition-all collapsed">
+                    <div class="mb-6">
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="Sports-Activities" checked class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Baseball</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Basketball</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Cheerleading</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Choir</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Color Gaurd</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Cross Country</span>
+                        </span>
+                      </label>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- widget / Sports & Activities End -->
+                <div class="widget border-t border-black">
+                  <button
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
                     <span>Price</span>
-                    <svg class="w-[18px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                    <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
                       viewBox="0 0 20.889 11.957">
                       <path id="Path_3747" data-name="Path 3747"
                         d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -599,35 +645,96 @@
                       <label class="block mb-[10px]">
                         <input type="radio" name="price" checked class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                           <span>$0 - $25</span>
                         </span>
                       </label>
                       <label class="block mb-[10px]">
                         <input type="radio" name="price" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                           <span> $25 - $50 </span>
                         </span>
                       </label>
                       <label class="block mb-[10px]">
                         <input type="radio" name="price" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                           <span>$50 - $100</span>
                         </span>
                       </label>
                       <label class="block mb-[10px]">
                         <input type="radio" name="price" class="peer absolute opacity-0 h-0 w-0" />
                         <span
-                          class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                           <span>$100 - $200</span>
                         </span>
                       </label>
                     </div>
                   </div>
                 </div>
-                <!-- widget -->
+                <!-- widget / Price End -->
+                <div class="widget border-t border-black">
+                  <button
+                    class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+                    <span>Brand</span>
+                    <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+                      viewBox="0 0 20.889 11.957">
+                      <path id="Path_3747" data-name="Path 3747"
+                        d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                        transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                        stroke-width="2" />
+                    </svg>
+                  </button>
+                  <div class="widget-content transition-all collapsed">
+                    <div class="mb-6">
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="brand" checked class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Adidas</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Badger</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Bella+Canvas</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Gildan</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Nike</span>
+                        </span>
+                      </label>
+                      <label class="block mb-[10px]">
+                        <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                        <span
+                          class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                          <span>Next Level</span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- widget / Brand End -->
+
               </div>
             </div>
             <div class="w-full overflow-hidden">
@@ -2109,9 +2216,9 @@
         </div>
         <!-- widget -->
         <div class="widget px-7 border-t border-black">
-          <button class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
-            <span>Size</span>
-            <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+            <span>Gender/Age</span>
+            <svg class="w-[14px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
               viewBox="0 0 20.889 11.957">
               <path id="Path_3747" data-name="Path 3747"
                 d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -2120,78 +2227,123 @@
             </svg>
           </button>
           <div class="widget-content transition-all">
+            <div class="mb-6">
+              <label class="block mb-[10px]">
+                <input type="radio" name="gender" checked class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Adult Unisex</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="gender" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Women</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="gender" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Youth</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="gender" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Baby</span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- widget / Gender/Age End -->
+        <div class="widget px-7 border-t border-black">
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+            <span>Size</span>
+            <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+              viewBox="0 0 20.889 11.957">
+              <path id="Path_3747" data-name="Path 3747"
+                d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                stroke-width="2" />
+            </svg>
+          </button>
+          <div class="widget-content transition-all collapsed">
             <div class="flex flex-wrap mb-6 gap-2">
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>XS</span>
                 </span>
               </label>
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>S</span>
                 </span>
               </label>
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>M</span>
                 </span>
               </label>
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>L</span>
                 </span>
               </label>
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" checked class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>XL</span>
                 </span>
               </label>
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>2XL</span>
                 </span>
               </label>
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>2XL</span>
                 </span>
               </label>
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>4XL</span>
                 </span>
               </label>
               <label class="flex-auto max-w-[40px] w-full">
                 <input type="radio" name="size" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="style-swatch relative block text-xs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
+                  class="style-swatch relative block text-xxs font-bold rounded border-2 border-transparent bg-media text-center h-[40px] leading-9 peer-checked:bg-transparent peer-checked:font-bold peer-checked:border-black">
                   <span>5XL</span>
                 </span>
               </label>
             </div>
           </div>
         </div>
-        <!-- widget -->
+        <!-- widget / Size End -->
         <div class="widget px-7 border-t border-black">
-          <button class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
-            <span>Color</span>
-            <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+            <span>Featured Departments</span>
+            <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
               viewBox="0 0 20.889 11.957">
               <path id="Path_3747" data-name="Path 3747"
                 d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -2199,182 +2351,51 @@
                 stroke-width="2" />
             </svg>
           </button>
-          <div class="widget-content transition-all">
+          <div class="widget-content transition-all collapsed">
             <div class="mb-6">
-              <label class="flex justify-between items-center mb-[10px]">
-                <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+              <label class="block mb-[10px]">
+                <input type="radio" name="fd" checked class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Green</span>
-                </span>
-                <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #315147">
-                  <span class="sr-only">Green</span>
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Hats</span>
                 </span>
               </label>
-
-              <label class="flex justify-between items-center mb-[10px]">
-                <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+              <label class="block mb-[10px]">
+                <input type="radio" name="fd" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative block text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>White</span>
-                </span>
-                <span class="block border border-black rounded-full w-[16px] h-[16px] mr-5"
-                  style="background-color: #fff">
-                  <span class="sr-only">White</span>
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Jerseys</span>
                 </span>
               </label>
-
-              <label class="flex justify-between items-center mb-[10px]">
-                <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+              <label class="block mb-[10px]">
+                <input type="radio" name="fd" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative block text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Yellow</span>
-                </span>
-                <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #ffdb00">
-                  <span class="sr-only">Yellow</span>
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Sweatshirts</span>
                 </span>
               </label>
-
-              <label class="flex justify-between items-center mb-[10px]">
-                <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+              <label class="block mb-[10px]">
+                <input type="radio" name="fd" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative block text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Grey</span>
-                </span>
-                <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #d6d6d6">
-                  <span class="sr-only">Grey</span>
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>T-Shirts</span>
                 </span>
               </label>
-
-              <label class="flex justify-between items-center mb-[10px]">
-                <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+              <label class="block mb-[10px]">
+                <input type="radio" name="fd" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Black</span>
-                </span>
-                <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #000">
-                  <span class="sr-only">Black</span>
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Sale Items</span>
                 </span>
               </label>
             </div>
           </div>
         </div>
-        <!-- widget -->
+        <!-- widget / Featured Departments End-->
         <div class="widget px-7 border-t border-black">
-          <button class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
-            <span>Brand</span>
-            <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
-              viewBox="0 0 20.889 11.957">
-              <path id="Path_3747" data-name="Path 3747"
-                d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
-                transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
-                stroke-width="2" />
-            </svg>
-          </button>
-          <div class="widget-content transition-all">
-            <div class="mb-6">
-              <label class="block mb-[10px]">
-                <input type="radio" name="brand" checked class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Adidas</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Badger</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Bella+Canvas</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Gildan</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Nike</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Next Level</span>
-                </span>
-              </label>
-            </div>
-          </div>
-        </div>
-        <!-- widget -->
-        <div class="widget px-7 border-t border-black">
-          <button class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
-            <span>Fit</span>
-            <svg class="w-[18px]" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
-              viewBox="0 0 20.889 11.957">
-              <path id="Path_3747" data-name="Path 3747"
-                d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
-                transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
-                stroke-width="2" />
-            </svg>
-          </button>
-          <div class="widget-content transition-all">
-            <div class="mb-6">
-              <label class="block mb-[10px]">
-                <input type="radio" name="fit" checked class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Classic</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="fit" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Regular</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="fit" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Slim</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="fit" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Gildan</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="fit" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Performance</span>
-                </span>
-              </label>
-            </div>
-          </div>
-        </div>
-        <!-- widget -->
-        <div class="widget px-7 border-t border-black">
-          <button class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
             <span>Material</span>
-            <svg class="w-[18px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+            <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
               viewBox="0 0 20.889 11.957">
               <path id="Path_3747" data-name="Path 3747"
                 d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -2387,46 +2408,210 @@
               <label class="block mb-[10px]">
                 <input type="radio" name="material" checked class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Classic</span>
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Cotton</span>
                 </span>
               </label>
               <label class="block mb-[10px]">
                 <input type="radio" name="material" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Regular</span>
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Ultra-Soft Blend</span>
                 </span>
               </label>
               <label class="block mb-[10px]">
                 <input type="radio" name="material" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Slim</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="material" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
-                  <span>Gildan</span>
-                </span>
-              </label>
-              <label class="block mb-[10px]">
-                <input type="radio" name="material" class="peer absolute opacity-0 h-0 w-0" />
-                <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                   <span>Performance</span>
                 </span>
               </label>
             </div>
           </div>
         </div>
-        <!-- widget -->
+        <!-- widget / Material End-->
         <div class="widget px-7 border-t border-black">
-          <button class="widget-title w-full text-black py-6 font-bold text-sm flex items-center justify-between">
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+            <span>Color</span>
+            <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+              viewBox="0 0 20.889 11.957">
+              <path id="Path_3747" data-name="Path 3747"
+                d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                stroke-width="2" />
+            </svg>
+          </button>
+          <div class="widget-content transition-all collapsed">
+            <div class="mb-6">
+              <label class="flex justify-between items-center mb-[10px]">
+                <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Green</span>
+                </span>
+                <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #315147">
+                  <span class="sr-only">Green</span>
+                </span>
+              </label>
+
+              <label class="flex justify-between items-center mb-[10px]">
+                <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative block text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>White</span>
+                </span>
+                <span class="block border border-black rounded-full w-[16px] h-[16px] mr-5"
+                  style="background-color: #fff">
+                  <span class="sr-only">White</span>
+                </span>
+              </label>
+
+              <label class="flex justify-between items-center mb-[10px]">
+                <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative block text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Yellow</span>
+                </span>
+                <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #ffdb00">
+                  <span class="sr-only">Yellow</span>
+                </span>
+              </label>
+
+              <label class="flex justify-between items-center mb-[10px]">
+                <input type="radio" name="color" checked class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative block text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Grey</span>
+                </span>
+                <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #d6d6d6">
+                  <span class="sr-only">Grey</span>
+                </span>
+              </label>
+
+              <label class="flex justify-between items-center mb-[10px]">
+                <input type="radio" name="color" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Black</span>
+                </span>
+                <span class="block rounded-full w-[16px] h-[16px] mr-5" style="background-color: #000">
+                  <span class="sr-only">Black</span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- widget / Color End-->
+        <div class="widget px-7 border-t border-black">
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+            <span>Design Style</span>
+            <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+              viewBox="0 0 20.889 11.957">
+              <path id="Path_3747" data-name="Path 3747"
+                d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                stroke-width="2" />
+            </svg>
+          </button>
+          <div class="widget-content transition-all collapsed">
+            <div class="mb-6">
+              <label class="block mb-[10px]">
+                <input type="radio" name="design" checked class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Traditional</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="design" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Vintage</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="design" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Trendy</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="design" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Novelty</span>
+                </span>
+              </label>
+
+            </div>
+          </div>
+        </div>
+        <!-- widget / Design Style End -->
+        <div class="widget px-7 border-t border-black">
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+            <span>Sports & Activities</span>
+            <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+              viewBox="0 0 20.889 11.957">
+              <path id="Path_3747" data-name="Path 3747"
+                d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                stroke-width="2" />
+            </svg>
+          </button>
+          <div class="widget-content transition-all collapsed">
+            <div class="mb-6">
+              <label class="block mb-[10px]">
+                <input type="radio" name="Sports-Activities" checked class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Baseball</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Basketball</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Cheerleading</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Choir</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Color Gaurd</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="Sports-Activities" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Cross Country</span>
+                </span>
+              </label>
+
+            </div>
+          </div>
+        </div>
+        <!-- widget / Sports & Activities End -->
+        <div class="widget px-7 border-t border-black">
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
             <span>Price</span>
-            <svg class="w-[18px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+            <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
               viewBox="0 0 20.889 11.957">
               <path id="Path_3747" data-name="Path 3747"
                 d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
@@ -2439,35 +2624,94 @@
               <label class="block mb-[10px]">
                 <input type="radio" name="price" checked class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                   <span>$0 - $25</span>
                 </span>
               </label>
               <label class="block mb-[10px]">
                 <input type="radio" name="price" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                   <span> $25 - $50 </span>
                 </span>
               </label>
               <label class="block mb-[10px]">
                 <input type="radio" name="price" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                   <span>$50 - $100</span>
                 </span>
               </label>
               <label class="block mb-[10px]">
                 <input type="radio" name="price" class="peer absolute opacity-0 h-0 w-0" />
                 <span
-                  class="relative flex space-x-3 text-xs font-bold ps-8 after:content-['_'] after:absolute after:w-[25px] after:h-[25px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[25px] peer-checked:before:h-[25px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
                   <span>$100 - $200</span>
                 </span>
               </label>
             </div>
           </div>
         </div>
-        <!-- widget -->
+        <!-- widget / Price End -->
+        <div class="widget px-7 border-t border-black">
+          <button class="widget-title w-full text-black py-6 font-bold text-xs flex items-center justify-between">
+            <span>Brand</span>
+            <svg class="w-[14px] rotate-180" xmlns="http://www.w3.org/2000/svg" width="20.889" height="11.957"
+              viewBox="0 0 20.889 11.957">
+              <path id="Path_3747" data-name="Path 3747"
+                d="M-4507.327-2589.163c.807.266,9.106,9.106,9.106,9.106l9.106-9.106"
+                transform="translate(4508.589 2590.577)" fill="none" stroke="#000" stroke-linecap="round"
+                stroke-width="2" />
+            </svg>
+          </button>
+          <div class="widget-content transition-all collapsed">
+            <div class="mb-6">
+              <label class="block mb-[10px]">
+                <input type="radio" name="brand" checked class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Adidas</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Badger</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Bella+Canvas</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Gildan</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Nike</span>
+                </span>
+              </label>
+              <label class="block mb-[10px]">
+                <input type="radio" name="brand" class="peer absolute opacity-0 h-0 w-0" />
+                <span
+                  class="relative flex space-x-3 text-xxs font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:w-[20px] peer-checked:before:h-[20px] peer-checked:before:left-0 peer-checked:before:top-0">
+                  <span>Next Level</span>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- widget / Brand End -->
       </div>
     </div>
     <!-- Filter Drawer Ends-->

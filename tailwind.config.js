@@ -33,7 +33,7 @@ module.exports = {
             },
             fontSize: {
                 xxs: '12px',
-                xs: '15px',
+                xs: '16px',
                 sm: '20px',
                 md: '30px',
                 lg: '40px',
