@@ -5,33 +5,42 @@
 @tailwind utilities;
 @layer base {
     body {
-        @apply text-sm leading-6
+        @apply font-sans text-base leading-none text-global-dark
     }
-    p {
+    p:not(:last-of-type) {
         margin-bottom: 1.25rem
     }
-    p:last-of-type {
-        margin-bottom: 0
+    
+    .h0 {
+        @apply text-size-1
     }
+
     h1,
     .h1 {
-        @apply text-[50px] leading-none font-bold
+        @apply text-size-2
     }
     h2,
     .h2 {
-        @apply text-[40px] leading-none font-bold
+        @apply text-size-3
     }
     h3,
     .h3 {
-        @apply text-[30px] leading-none font-bold
+        @apply text-size-4
     }
     h4,
     .h4 {
-        @apply text-[24px] leading-none font-bold
+        @apply text-size-5
+    }
+    h5,
+    .h5 {
+        @apply text-size-6
     }
 }
 
 @layer components {
+    .container-main {
+        @apply container max-w-main mx-auto;
+    }
     .container-narrow {
         @apply container max-w-narrow mx-auto;
     }
@@ -40,10 +49,10 @@
         @apply text-sm font-bold leading-4 inline-block items-center cursor-pointer transition ease-in-out duration-300 text-center justify-center border-0 px-[36px] py-[18px] rounded-full
     }
     .btn-yellow {
-        @apply bg-accent text-black
+        @apply text-black
     }
     .btn-yellow:hover {
-        @apply bg-accent-3 text-white
+        @apply text-white
     }
     /* Buttons */
     /* Modal Open */
