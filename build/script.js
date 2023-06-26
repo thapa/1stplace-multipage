@@ -61,3 +61,13 @@ const quickView = document
     document.querySelector("#quickview").setAttribute("aria-modal", "true");
     document.querySelector("html").classList.add("modal-open");
   });
+
+  const closeQuickView = document.querySelectorAll("[data-close-quick-view]");
+  closeQuickView.forEach((button) => {
+    button.addEventListener("click", () => {
+      document.querySelector("#quickview").setAttribute("aria-modal", "false");
+      document.querySelector("html").classList.remove("modal-open");
+    }); 
+  });
+
+  
