@@ -1404,6 +1404,10 @@ h5,
   justify-content: space-around;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .gap-10{
   gap: 2.5rem;
 }
@@ -1422,10 +1426,6 @@ h5,
 
 .gap-\[10px\]{
   gap: 10px;
-}
-
-.gap-1{
-  gap: 0.25rem;
 }
 
 .-space-x-3 > :not([hidden]) ~ :not([hidden]){
@@ -1736,10 +1736,6 @@ h5,
 
 .bg-cover{
   background-size: cover;
-}
-
-.bg-contain{
-  background-size: contain;
 }
 
 .bg-center{
@@ -2691,6 +2687,11 @@ h5,
   left: -8px;
 }
 
+.peer:checked ~ .peer-checked\:before\:left-\[4px\]::before{
+  content: var(--tw-content);
+  left: 4px;
+}
+
 .peer:checked ~ .peer-checked\:before\:top-0::before{
   content: var(--tw-content);
   top: 0px;
@@ -2706,14 +2707,14 @@ h5,
   top: -8px;
 }
 
-.peer:checked ~ .peer-checked\:before\:left-\[4px\]::before{
-  content: var(--tw-content);
-  left: 4px;
-}
-
 .peer:checked ~ .peer-checked\:before\:top-\[4px\]::before{
   content: var(--tw-content);
   top: 4px;
+}
+
+.peer:checked ~ .peer-checked\:before\:h-\[14px\]::before{
+  content: var(--tw-content);
+  height: 14px;
 }
 
 .peer:checked ~ .peer-checked\:before\:h-\[20px\]::before{
@@ -2726,9 +2727,9 @@ h5,
   height: 24px;
 }
 
-.peer:checked ~ .peer-checked\:before\:h-\[14px\]::before{
+.peer:checked ~ .peer-checked\:before\:w-\[14px\]::before{
   content: var(--tw-content);
-  height: 14px;
+  width: 14px;
 }
 
 .peer:checked ~ .peer-checked\:before\:w-\[20px\]::before{
@@ -2739,11 +2740,6 @@ h5,
 .peer:checked ~ .peer-checked\:before\:w-\[24px\]::before{
   content: var(--tw-content);
   width: 24px;
-}
-
-.peer:checked ~ .peer-checked\:before\:w-\[14px\]::before{
-  content: var(--tw-content);
-  width: 14px;
 }
 
 .peer:checked ~ .peer-checked\:before\:rounded-\[5px\]::before{
@@ -2781,6 +2777,11 @@ h5,
 .peer:checked ~ .peer-checked\:before\:bg-checkmark-black::before{
   content: var(--tw-content);
   background-image: url('/images/check-icon-black.svg');
+}
+
+.peer:checked ~ .peer-checked\:before\:bg-contain::before{
+  content: var(--tw-content);
+  background-size: contain;
 }
 
 .peer:checked ~ .peer-checked\:before\:bg-center::before{
