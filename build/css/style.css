@@ -1424,6 +1424,10 @@ h5,
   gap: 10px;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .-space-x-3 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(-0.75rem * var(--tw-space-x-reverse));
@@ -2391,6 +2395,11 @@ h5,
 .before\:top-\[6px\]::before{
   content: var(--tw-content);
   top: 6px;
+}
+
+.before\:top-\[7px\]::before{
+  content: var(--tw-content);
+  top: 7px;
 }
 
 .before\:block::before{
