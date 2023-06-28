@@ -62,12 +62,36 @@ const quickView = document
     document.querySelector("html").classList.add("modal-open");
   });
 
-  const closeQuickView = document.querySelectorAll("[data-close-quick-view]");
-  closeQuickView.forEach((button) => {
-    button.addEventListener("click", () => {
-      document.querySelector("#quickview").setAttribute("aria-modal", "false");
-      document.querySelector("html").classList.remove("modal-open");
-    }); 
+const closeQuickView = document.querySelectorAll("[data-close-quick-view]");
+closeQuickView.forEach((button) => {
+  button.addEventListener("click", () => {
+    document.querySelector("#quickview").setAttribute("aria-modal", "false");
+    document.querySelector("html").classList.remove("modal-open");
   });
+});
 
-  
+document.addEventListener("click", function (event) {
+  var target = event.target;
+
+  // Check if the clicked element or its parent has the attribute 'aria-expanded'
+  var label = target.closest("label[aria-expanded]");
+  if (label) {
+    var isExpanded = label.getAttribute("aria-expanded");
+
+    // Close all other expanded items
+    document
+      .querySelectorAll('[aria-expanded="true"]')
+      .forEach(function (item) {
+        if (item !== label) {
+          item.setAttribute("aria-expanded", "false");
+        }
+      });
+
+    // Toggle the 'aria-expanded' attribute value of the clicked item
+    if (isExpanded === "true") {
+      label.setAttribute("aria-expanded", "false");
+    } else {
+      label.setAttribute("aria-expanded", "true");
+    }
+  }
+});

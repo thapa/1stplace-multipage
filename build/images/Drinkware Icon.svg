@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.452" height="49.604" viewBox="0 0 30.452 49.604">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_204" data-name="Rectangle 204" width="30.452" height="49.252" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1.5"/>
+    </clipPath>
+  </defs>
+  <g id="Drinkware_Icon" data-name="Drinkware Icon" transform="translate(0 0.352)">
+    <g id="Group_455" data-name="Group 455">
+      <g id="Group_459" data-name="Group 459">
+        <rect id="Rectangle_202" data-name="Rectangle 202" width="23.998" height="4" transform="translate(1.001 11.252)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_4898" data-name="Path 4898" d="M17.94,10.255l1.1-7.4L24,.639" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_4899" data-name="Path 4899" d="M25,15.252l-3,33H4l-3-33" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <line id="Line_66" data-name="Line 66" x1="1.837" y1="20.92" transform="translate(5.9 21.34)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Group_457" data-name="Group 457">
+      <g id="Group_456" data-name="Group 456" clip-path="url(#clip-path)">
+        <path id="Path_4900" data-name="Path 4900" d="M24,34.2h1.2c.9,0,1.354-1.29,1.777-2.212s1.868-5.475,2.337-7.371c.462-1.872,1.115-4.32-.812-4.32H25" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.5" height="55.5" viewBox="0 0 53.5 55.5">
+  <g id="Polo_Icon" data-name="Polo Icon" transform="translate(-0.25 -0.25)" style="isolation: isolate">
+    <g id="Group_431" data-name="Group 431">
+      <path id="Path_4803" data-name="Path 4803" d="M27,1h5.481a.907.907,0,0,1,.887,1.092C32.861,4.521,31.232,10.025,27,10.5c-4.232-.475-5.861-5.979-6.368-8.408A.907.907,0,0,1,21.519,1Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_4804" data-name="Path 4804" d="M33.184,1.335l5.022,5.291A20.688,20.688,0,0,1,33,15s-3.584-4.5-6-4.5S21,15,21,15a20.674,20.674,0,0,1-5.206-8.374l5.022-5.291" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_4805" data-name="Path 4805" d="M38.206,6.626S42.883,8.514,46,10a24.639,24.639,0,0,0-4,14V53s-4.923,2-15,2-15-2-15-2V24A24.639,24.639,0,0,0,8,10c3.117-1.486,7.794-3.374,7.794-3.374" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_4806" data-name="Path 4806" d="M46,10c3.9,3.9,7,15,7,15l-7,4-4-5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_4807" data-name="Path 4807" d="M8,10C4.1,13.9,1,25,1,25l7,4,4-5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Line_64" data-name="Line 64" y2="12" transform="translate(26 11)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_4808" data-name="Path 4808" d="M29,14.5a.5.5,0,1,1-.5-.5.5.5,0,0,1,.5.5" transform="translate(0 1)" fill="none" stroke="#000" stroke-width="1.5"/>
+      <path id="Path_4809" data-name="Path 4809" d="M29,19.5a.5.5,0,1,1-.5-.5.5.5,0,0,1,.5.5" transform="translate(0 1)" fill="none" stroke="#000" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
