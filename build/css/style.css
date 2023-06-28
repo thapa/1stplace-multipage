@@ -1738,6 +1738,10 @@ h5,
   background-size: cover;
 }
 
+.bg-contain{
+  background-size: contain;
+}
+
 .bg-center{
   background-position: center;
 }
@@ -2702,6 +2706,16 @@ h5,
   top: -8px;
 }
 
+.peer:checked ~ .peer-checked\:before\:left-\[4px\]::before{
+  content: var(--tw-content);
+  left: 4px;
+}
+
+.peer:checked ~ .peer-checked\:before\:top-\[4px\]::before{
+  content: var(--tw-content);
+  top: 4px;
+}
+
 .peer:checked ~ .peer-checked\:before\:h-\[20px\]::before{
   content: var(--tw-content);
   height: 20px;
@@ -2712,6 +2726,11 @@ h5,
   height: 24px;
 }
 
+.peer:checked ~ .peer-checked\:before\:h-\[14px\]::before{
+  content: var(--tw-content);
+  height: 14px;
+}
+
 .peer:checked ~ .peer-checked\:before\:w-\[20px\]::before{
   content: var(--tw-content);
   width: 20px;
@@ -2720,6 +2739,11 @@ h5,
 .peer:checked ~ .peer-checked\:before\:w-\[24px\]::before{
   content: var(--tw-content);
   width: 24px;
+}
+
+.peer:checked ~ .peer-checked\:before\:w-\[14px\]::before{
+  content: var(--tw-content);
+  width: 14px;
 }
 
 .peer:checked ~ .peer-checked\:before\:rounded-\[5px\]::before{
