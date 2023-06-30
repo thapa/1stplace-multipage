@@ -95,3 +95,19 @@ document.addEventListener("click", function (event) {
     }
   }
 });
+
+document.querySelector("#search").addEventListener("blur", function (e) {
+  // Access the input element using 'this'
+  const input = this;
+
+  // Access the input value using 'this.value'
+  const inputValue = this.value;
+
+  if (this.value) {
+    this.style.width = "200px";
+    this.style.borderColor = "#000";
+  } else {
+    this.style.width = "";
+    this.style.borderColor = "";
+  }
+});

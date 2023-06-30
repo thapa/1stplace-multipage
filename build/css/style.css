@@ -859,6 +859,14 @@ h5,
   top: 100%;
 }
 
+.left-1{
+  left: 0.25rem;
+}
+
+.left-3{
+  left: 0.75rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -1927,6 +1935,11 @@ h5,
   padding-left: 2.5rem;
 }
 
+.ps-10{
+  -webkit-padding-start: 2.5rem;
+          padding-inline-start: 2.5rem;
+}
+
 .ps-20{
   -webkit-padding-start: 5rem;
           padding-inline-start: 5rem;
@@ -1960,6 +1973,11 @@ h5,
 
 .pt-\[30px\]{
   padding-top: 30px;
+}
+
+.ps-6{
+  -webkit-padding-start: 1.5rem;
+          padding-inline-start: 1.5rem;
 }
 
 .text-left{
@@ -2230,6 +2248,10 @@ h5,
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-0{
+  outline-width: 0px;
 }
 
 .drop-shadow-md{
@@ -2612,8 +2634,37 @@ h5,
   content: var(--tw-content);
 }
 
+.focus\:w-\[200px\]:focus{
+  width: 200px;
+}
+
+.focus\:rounded:focus{
+  border-radius: 0.25rem;
+}
+
+.focus\:rounded-full:focus{
+  border-radius: 9999px;
+}
+
+.focus\:border:focus{
+  border-width: 1px;
+}
+
+.focus\:border-black:focus{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .focus\:outline-0:focus{
   outline-width: 0px;
+}
+
+.focus\:outline-1:focus{
+  outline-width: 1px;
+}
+
+.focus\:outline-black:focus{
+  outline-color: #000;
 }
 
 .focus-visible\:outline-none:focus-visible{
