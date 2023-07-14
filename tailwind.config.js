@@ -50,7 +50,7 @@ module.exports = {
         "size-4": "48px",
         "size-5": "30px",
         "size-6": "24px",
-        base: "21px",
+        base: "20px",
         sm: "18px",
         xs: "14px",
         xxs: "12px",

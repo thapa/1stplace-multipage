@@ -5,9 +5,10 @@
 @tailwind utilities;
 @layer base {
   body {
-    @apply font-sans text-base leading-none text-global-dark;
+    @apply font-sans text-base max-sm:text-sm leading-none text-global-dark;
   }
-  p:not(:last-of-type) {
+  p:not(:last-of-type),
+  p:not(:last-child) {
     margin-bottom: 1.25rem;
   }
 
@@ -100,3 +101,69 @@
 [aria-modal="false"] {
   display: none;
 }
+
+/* Price Range */
+
+.price-widget .field input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 19px;
+  margin-left: 12px;
+  text-align: center;
+  border: 1px solid #999;
+  -moz-appearance: textfield;
+}
+.price-widget input[type="number"]::-webkit-outer-spin-button,
+.price-widget input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.price-widget .slider {
+  height: 5px;
+  position: relative;
+  background: #ddd;
+  border-radius: 5px;
+}
+.price-widget .slider .progress {
+  height: 100%;
+  left: 0%;
+  right: 0%;
+  position: absolute;
+  border-radius: 5px;
+  background: #17a2b8;
+}
+.price-widget .range-input {
+  position: relative;
+}
+.price-widget .range-input input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.price-widget input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: #17a2b8;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+.price-widget input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: #17a2b8;
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Price Range End */

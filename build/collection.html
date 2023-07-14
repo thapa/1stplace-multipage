@@ -901,7 +901,7 @@
                   <div class="widget border-t border-black">
                     <button
                       class="widget-title w-full text-black py-6 font-bold text-base flex items-center justify-between">
-                      <span>Color</span>
+                      <span>Garment Color</span>
                       <svg
                         class="w-[18px] rotate-180"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1182,47 +1182,45 @@
                     </button>
                     <div class="widget-content transition-all collapsed">
                       <div class="mb-6">
-                        <label class="block mb-[10px]">
-                          <input
-                            type="radio"
-                            name="price"
-                            checked
-                            class="peer absolute opacity-0 h-0 w-0" />
-                          <span
-                            class="relative cursor-pointer flex space-x-3 text-xs leading-normal font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:bg-contain peer-checked:before:w-[14px] peer-checked:before:h-[14px] peer-checked:before:left-[4px] peer-checked:before:top-[4px]">
-                            <span>$0 - $25</span>
-                          </span>
-                        </label>
-                        <label class="block mb-[10px]">
-                          <input
-                            type="radio"
-                            name="price"
-                            class="peer absolute opacity-0 h-0 w-0" />
-                          <span
-                            class="relative cursor-pointer flex space-x-3 text-xs leading-normal font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:bg-contain peer-checked:before:w-[14px] peer-checked:before:h-[14px] peer-checked:before:left-[4px] peer-checked:before:top-[4px]">
-                            <span> $25 - $50 </span>
-                          </span>
-                        </label>
-                        <label class="block mb-[10px]">
-                          <input
-                            type="radio"
-                            name="price"
-                            class="peer absolute opacity-0 h-0 w-0" />
-                          <span
-                            class="relative cursor-pointer flex space-x-3 text-xs leading-normal font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:bg-contain peer-checked:before:w-[14px] peer-checked:before:h-[14px] peer-checked:before:left-[4px] peer-checked:before:top-[4px]">
-                            <span>$50 - $100</span>
-                          </span>
-                        </label>
-                        <label class="block mb-[10px]">
-                          <input
-                            type="radio"
-                            name="price"
-                            class="peer absolute opacity-0 h-0 w-0" />
-                          <span
-                            class="relative cursor-pointer flex space-x-3 text-xs leading-normal font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:bg-contain peer-checked:before:w-[14px] peer-checked:before:h-[14px] peer-checked:before:left-[4px] peer-checked:before:top-[4px]">
-                            <span>$100 - $200</span>
-                          </span>
-                        </label>
+                        <div class="price-widget">
+                          <div
+                            class="price-input flex gap-5 items-center text-sm mb-5">
+                            <div class="flex items-center gap-2">
+                              <span>Min</span>
+                              <input
+                                type="number"
+                                class="input-min w-[60px] h-[40px] border border-black text-center"
+                                value="0" />
+                            </div>
+                            <div class="separator">-</div>
+                            <div class="flex items-center gap-2">
+                              <span>Max</span>
+                              <input
+                                type="number"
+                                class="input-max w-[60px] h-[40px] border border-black text-center"
+                                value="100" />
+                            </div>
+                          </div>
+                          <div class="slider">
+                            <div class="progress"></div>
+                          </div>
+                          <div class="range-input">
+                            <input
+                              type="range"
+                              class="range-min"
+                              min="0"
+                              max="100"
+                              value="0"
+                              step="10" />
+                            <input
+                              type="range"
+                              class="range-max"
+                              min="0"
+                              max="100"
+                              value="100"
+                              step="10" />
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -4612,47 +4610,44 @@
             </button>
             <div class="widget-content transition-all collapsed">
               <div class="mb-6">
-                <label class="block mb-[10px]">
-                  <input
-                    type="radio"
-                    name="price"
-                    checked
-                    class="peer absolute opacity-0 h-0 w-0" />
-                  <span
-                    class="relative cursor-pointer flex space-x-3 text-xs leading-normal font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:bg-contain peer-checked:before:w-[14px] peer-checked:before:h-[14px] peer-checked:before:left-[4px] peer-checked:before:top-[4px]">
-                    <span>$0 - $25</span>
-                  </span>
-                </label>
-                <label class="block mb-[10px]">
-                  <input
-                    type="radio"
-                    name="price"
-                    class="peer absolute opacity-0 h-0 w-0" />
-                  <span
-                    class="relative cursor-pointer flex space-x-3 text-xs leading-normal font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:bg-contain peer-checked:before:w-[14px] peer-checked:before:h-[14px] peer-checked:before:left-[4px] peer-checked:before:top-[4px]">
-                    <span> $25 - $50 </span>
-                  </span>
-                </label>
-                <label class="block mb-[10px]">
-                  <input
-                    type="radio"
-                    name="price"
-                    class="peer absolute opacity-0 h-0 w-0" />
-                  <span
-                    class="relative cursor-pointer flex space-x-3 text-xs leading-normal font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:bg-contain peer-checked:before:w-[14px] peer-checked:before:h-[14px] peer-checked:before:left-[4px] peer-checked:before:top-[4px]">
-                    <span>$50 - $100</span>
-                  </span>
-                </label>
-                <label class="block mb-[10px]">
-                  <input
-                    type="radio"
-                    name="price"
-                    class="peer absolute opacity-0 h-0 w-0" />
-                  <span
-                    class="relative cursor-pointer flex space-x-3 text-xs leading-normal font-bold ps-8 after:content-['_'] after:absolute after:w-[22px] after:h-[22px] after:border after:border-black after:left-0 after:top-0 after:rounded-[5px] peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-[5px] peer-checked:before:bg-center peer-checked:before:bg-checkmark-black peer-checked:before:bg-contain peer-checked:before:w-[14px] peer-checked:before:h-[14px] peer-checked:before:left-[4px] peer-checked:before:top-[4px]">
-                    <span>$100 - $200</span>
-                  </span>
-                </label>
+                <div class="price-widget">
+                  <div class="price-input flex gap-5 items-center text-sm mb-5">
+                    <div class="flex items-center gap-2">
+                      <span>Min</span>
+                      <input
+                        type="number"
+                        class="input-min w-[60px] h-[40px] border border-black text-center"
+                        value="0" />
+                    </div>
+                    <div class="separator">-</div>
+                    <div class="flex items-center gap-2">
+                      <span>Max</span>
+                      <input
+                        type="number"
+                        class="input-max w-[60px] h-[40px] border border-black text-center"
+                        value="100" />
+                    </div>
+                  </div>
+                  <div class="slider">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="range-input">
+                    <input
+                      type="range"
+                      class="range-min"
+                      min="0"
+                      max="100"
+                      value="0"
+                      step="10" />
+                    <input
+                      type="range"
+                      class="range-max"
+                      min="0"
+                      max="100"
+                      value="100"
+                      step="10" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -4950,7 +4945,7 @@
                     <!-- Product Options Starts -->
                     <div class="product-options text-xs">
                       <div
-                        class="options-style flex flex-wrap gap-5 items-start mb-[20px]">
+                        class="options-style max-sm:grid max-sm:grid-cols-5 flex flex-wrap max-sm:gap-2 gap-5 items-start mb-[20px]">
                         <label class="flex-shrink-0">
                           <input
                             type="radio"
@@ -4958,11 +4953,11 @@
                             checked
                             class="peer absolute opacity-0 h-0 w-0" />
                           <span
-                            class="style-swatch relative block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                            class="style-swatch relative m-auto block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
                             <img
                               src="images/T-shirt-Icon.svg"
                               alt=""
-                              class="w-[60px] h-[60px] object-contain" />
+                              class="max-sm:w-[40px] m-auto max-sm:h-[40px] w-[60px] h-[60px] object-contain" />
                           </span>
                           <p class="text-center mt-1">T-shirt</p>
                         </label>
@@ -4972,11 +4967,11 @@
                             name="style"
                             class="peer absolute opacity-0 h-0 w-0" />
                           <span
-                            class="style-swatch relative block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                            class="style-swatch relative m-auto block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
                             <img
                               src="images/Long-Sleeve-Icon.svg"
                               alt=""
-                              class="w-[60px] h-[60px] object-contain" />
+                              class="max-sm:w-[40px] m-auto max-sm:h-[40px] w-[60px] h-[60px] object-contain" />
                           </span>
                           <p class="text-center mt-1">Long Sleeve</p>
                         </label>
@@ -4986,11 +4981,11 @@
                             name="style"
                             class="peer absolute opacity-0 h-0 w-0" />
                           <span
-                            class="style-swatch relative block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                            class="style-swatch relative m-auto block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
                             <img
                               src="images/Sweatshirt-Icon.svg"
                               alt=""
-                              class="w-[60px] h-[60px] object-contain" />
+                              class="max-sm:w-[40px] m-auto max-sm:h-[40px] w-[60px] h-[60px] object-contain" />
                           </span>
                           <p class="text-center mt-1">Sweatshirt</p>
                         </label>
@@ -5000,11 +4995,11 @@
                             name="style"
                             class="peer absolute opacity-0 h-0 w-0" />
                           <span
-                            class="style-swatch relative block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                            class="style-swatch relative m-auto block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
                             <img
                               src="images/Hoodie-Icon.svg"
                               alt=""
-                              class="w-[60px] h-[60px] object-contain" />
+                              class="max-sm:w-[40px] m-auto max-sm:h-[40px] w-[60px] h-[60px] object-contain" />
                           </span>
                           <p class="text-center mt-1">Hoodie</p>
                         </label>
@@ -5014,11 +5009,11 @@
                             name="style"
                             class="peer absolute opacity-0 h-0 w-0" />
                           <span
-                            class="style-swatch relative block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
+                            class="style-swatch relative block border border-transparent bg-global-l-grey rounded-[5px] p-[10px] peer-checked:bg-transparent peer-checked:border peer-checked:border-black peer-checked:before:content-['_'] peer-checked:before:absolute peer-checked:before:bg-no-repeat peer-checked:before:rounded-full peer-checked:before:bg-center peer-checked:before:bg-checkmark peer-checked:before:bg-global-1 peer-checked:before:w-[24px] peer-checked:before:h-[24px] peer-checked:before:left-[-10px] peer-checked:before:top-[-10px] peer-checked:before:border-2 peer-checked:before:border-white">
                             <img
                               src="images/Hats-Icon.svg"
                               alt=""
-                              class="w-[60px] h-[60px] object-contain" />
+                              class="max-sm:w-[40px] max-sm:h-[40px] w-[60px] h-[60px] object-contain" />
                           </span>
                           <p class="text-center mt-1">Hats</p>
                         </label>
